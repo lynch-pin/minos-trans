@@ -34,7 +34,7 @@ function speakerIcon(size = 14) {
  * @param {{slow?: boolean, label?: string, small?: boolean}} [options]
  */
 function speakButton(text, options = {}) {
-  if (!canSpeak() || !nonEmpty(text)) return null;
+  if (!nonEmpty(text) || !canSpeak(text)) return null;
 
   const button = el('button', options.small ? 'speak speak-sm' : 'speak');
   button.type = 'button';

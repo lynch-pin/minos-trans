@@ -16,8 +16,11 @@
 1. `data/entries.json` 을 읽습니다.
 2. 아래 형식에 맞는 항목을 만들어 **배열 끝에 덧붙입니다.** 기존 항목은 건드리지 않습니다.
 3. `python3 tools/validate.py` 를 돌립니다. 반드시 통과해야 합니다.
-4. 커밋하고 `main` 에 푸시합니다. 푸시하면 GitHub Actions 가 자동으로 배포합니다.
-5. 사용자에게 **바뀐 개수**를 알려 줍니다 (문장 N→M, 낱말 N→M, 분류 N→M).
+4. `python3 tools/gen-audio.py` 를 돌려 새 문장·낱말의 발음 오디오를 만듭니다
+   (아래 "발음 오디오" 참고). `espeak-ng`·`lame` 이 없으면 먼저 설치합니다:
+   `apt-get install -y espeak-ng lame`.
+5. 커밋하고 `main` 에 푸시합니다. 푸시하면 GitHub Actions 가 자동으로 배포합니다.
+6. 사용자에게 **바뀐 개수**를 알려 줍니다 (문장 N→M, 낱말 N→M, 분류 N→M).
    사이트 위쪽에 이 숫자가 늘 떠 있고, 사용자는 이걸 보고 더 채울지 정합니다.
 
 여러 문장을 한 번에 주면 전부 항목으로 만들고 한 커밋으로 묶습니다.
@@ -93,6 +96,20 @@
 `θ`(무성 치간음, 영어 think)와 `δ`(유성 치간음, 영어 this)는 한글로 정확히
 못 옮기니 각각 ㄸ·ㄷ 으로 구분해 적고, 헷갈릴 만하면 `notes` 에 한 줄 적어
 줍니다. 자세한 대응표는 `tools/ipa.py` 머리말에 있습니다.
+
+### 발음 오디오 — 듣기 버튼이 실제로 재생하는 소리
+
+`ipa`/`ko_pron` 은 화면에 적힌 글자일 뿐이고, 듣기 버튼이 실제로 재생하는
+소리는 `data/audio/` 의 mp3 파일입니다. `python3 tools/gen-audio.py` 가
+`espeak-ng` 로 새 문장·낱말의 오디오를 만들어 `data/audio/manifest.json` 에
+등록합니다. 항목을 추가하거나 `el` 문장을 고친 뒤에는 **항상** 이 스크립트도
+돌립니다 — 안 돌리면 그 문장의 듣기 버튼이 나타나지 않습니다
+(`tools/validate.py` 가 경고로 알려 줍니다).
+
+기기에 그리스어 음성이 있으면 그걸 우선 쓰고, 없으면 이 mp3 로 대체합니다
+(`js/speech.js`). 그래서 듣기 버튼이 기기에 따라 사라지는 일이 없습니다.
+`espeak-ng`·`lame` 이 로컬에 없으면 먼저 설치하세요: `apt-get install -y
+espeak-ng lame` (또는 각 OS 의 패키지 관리자).
 
 ### `notes` — 문법을 문장 안에서 가르치기
 
@@ -176,9 +193,11 @@ python3 -m http.server 8000   # 화면 확인 (file:// 로는 안 열립니다)
 ```
 data/entries.json   ← 사이트의 모든 내용. 대부분의 작업이 여기서 끝납니다
 data/SCHEMA.md      형식 명세
+data/audio/         미리 만든 발음 mp3 + manifest.json (문장·낱말 텍스트 → 파일명)
 tools/validate.py   검사기 (로컬·CI 공용)
 tools/ipa.py        낱말별 IPA·한글 근사 사전
-tools/regen-pron.py 발음 재생성
+tools/regen-pron.py 발음(IPA/한글) 재생성
+tools/gen-audio.py  발음 오디오(mp3) 생성 — espeak-ng 필요
 tools/remove-source.py  특정 출처 항목 일괄 제거
 
 index.html          화면 구조
@@ -187,7 +206,7 @@ js/app.js           탭·검색·설정 배선
 js/entries.js       데이터 읽기, 날짜별 선택, 검색, 단어장·분류 집계
 js/render.js        데이터 → DOM
 js/store.js         localStorage 래퍼
-js/speech.js        발음 듣기 (브라우저 내장 음성 합성, 외부 API 없음)
+js/speech.js        발음 듣기 (기기 음성 우선, 없으면 data/audio/ 로 대체)
 
 ── 번역기 탭에서만 쓰입니다 (선택 기능) ──
 js/api.js js/schemas.js js/models.js js/usage.js
@@ -203,10 +222,13 @@ tools/build-vendor.sh     위 번들 재생성
 Anthropic API 키를 씁니다. 이 구분을 깨뜨리지 마세요 — 키 없이도 오늘의 표현,
 모아보기, 단어장, 발음 듣기가 전부 동작해야 합니다.
 
-발음 듣기는 브라우저 내장 음성 합성(Web Speech API)을 씁니다. 외부 TTS API 를
-붙이지 마세요 — 키가 필요해져서 위 원칙이 깨집니다. 기기에 그리스어 음성이
-없으면 버튼을 숨기고 안내를 띄웁니다. 엉뚱한 언어 음성으로 그리스어를 읽어
-주면 발음을 배우는 데 해롭기 때문입니다.
+발음 듣기는 두 단계로 동작합니다: 기기에 그리스어 음성(Web Speech API)이
+있으면 그걸 쓰고, 없으면 `data/audio/` 에 미리 만들어 둔 mp3(`tools/gen-audio.py`
+로 espeak-ng 제작 시점에 생성)로 대체합니다. 어느 쪽도 방문 시점에 네트워크나
+API 키가 필요하지 않습니다 — mp3 는 이미 레포 안에 들어 있는 정적 파일입니다.
+**방문 시점에 외부 TTS API 를 부르는 코드는 붙이지 마세요** — 키가 필요해지고
+서버 없는 구조가 깨집니다. 이 원칙을 깨지 않는 한, 다른 언어의 espeak-ng
+음성을 추가하거나 mp3 생성 파라미터를 바꾸는 건 괜찮습니다.
 
 `js/speech.js` 를 고칠 때 지킬 것:
 

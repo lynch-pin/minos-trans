@@ -16,6 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "entries.json"
+AUDIO_MANIFEST = ROOT / "data" / "audio" / "manifest.json"
 
 REQUIRED = [
     "id", "added", "kind", "category", "source", "ko", "romanization",
@@ -59,6 +60,13 @@ def main():
         print("FAIL  최상위가 배열이 아닙니다.")
         return 1
 
+    audio_manifest = None
+    if AUDIO_MANIFEST.exists():
+        try:
+            audio_manifest = json.loads(AUDIO_MANIFEST.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            audio_manifest = None
+
     seen_ids = set()
 
     for index, entry in enumerate(entries):
@@ -101,6 +109,9 @@ def main():
 
         if entry["category"] not in KNOWN_CATEGORIES:
             warn(eid, f"새 분류 '{entry['category']}' — 오타가 아니면 그대로 두어도 됩니다.")
+
+        if audio_manifest is not None and entry["el"] not in audio_manifest:
+            warn(eid, "el 문장의 발음 오디오가 아직 없습니다. python3 tools/gen-audio.py 를 돌려 주세요.")
 
         if not isinstance(entry["words"], list) or not entry["words"]:
             fail(eid, "words 가 비어 있습니다. el 에 쓰인 낱말을 적어야 합니다.")

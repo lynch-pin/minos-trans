@@ -20,7 +20,8 @@ import {
   summarize,
 } from './entries.js';
 import {
-  canSpeak,
+  loadAudioManifest,
+  hasNoAudioAtAll,
   onVoiceChange,
   voiceCount,
   greekVoices,
@@ -138,14 +139,13 @@ function refreshUsage() {
 function refreshSpeech() {
   const note = $('#speech-note');
 
-  if (canSpeak()) {
-    note.hidden = true;
-  } else {
+  // 기기 음성도, 미리 만든 오디오도 하나도 없을 때만 안내한다 — 보통은
+  // 둘 중 하나가 항상 있어서 이 안내가 뜰 일이 없다.
+  if (hasNoAudioAtAll()) {
     note.hidden = false;
-    note.textContent =
-      voiceCount() > 0
-        ? '이 기기에 그리스어 음성이 없어 듣기 버튼을 숨겼습니다. 운영체제 설정에서 그리스어 음성을 추가하면 나타납니다.'
-        : '이 브라우저에서는 음성 합성을 쓸 수 없어 듣기 버튼을 숨겼습니다.';
+    note.textContent = '이 문장의 발음 오디오를 아직 준비하지 못했습니다.';
+  } else {
+    note.hidden = true;
   }
 
   // 이미 그려 둔 카드들에 버튼을 반영한다.
@@ -176,9 +176,10 @@ function refreshVoicePicker() {
     select.disabled = true;
     test.disabled = true;
     note.textContent =
-      voiceCount() > 0
+      (voiceCount() > 0
         ? `이 기기에 음성은 ${voiceCount()}개 있지만 그리스어는 없습니다. 운영체제 설정에서 그리스어 음성을 추가해 주세요.`
-        : '이 브라우저에서는 음성 합성을 쓸 수 없습니다.';
+        : '이 브라우저에서는 음성 합성을 쓸 수 없습니다.') +
+      ' 그 대신 미리 만들어 둔 오디오로 듣기 버튼은 그대로 동작합니다.';
     return;
   }
 
@@ -431,7 +432,9 @@ async function init() {
   // 데이터가 사이트의 본체다. 이것만 읽히면 키 없이 전부 동작한다.
   showLoading($('#daily-status'), '문장을 불러오는 중입니다…');
   try {
-    entries = await loadEntries();
+    // 오디오 매니페스트를 함께 기다려서, 첫 렌더에서부터 듣기 버튼이
+    // 있어야 할 자리에 바로 나타나게 한다(나중에 깜빡이며 나타나지 않게).
+    [entries] = await Promise.all([loadEntries(), loadAudioManifest()]);
     vocabulary = buildVocabulary(entries);
     categories = categoriesOf(entries);
     renderSummary($('#summary'), summarize(entries, vocabulary));
