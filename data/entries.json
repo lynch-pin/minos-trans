@@ -3002,5 +3002,1041 @@
       "관용구",
       "반말"
     ]
+  },
+  {
+    "id": "epeyfimiste",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "환호하라!",
+    "romanization": "",
+    "el": "Επευφημήστε!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 미노스 소속 오퍼레이터 팔라스가 전투 시작 시 외치는 대사.",
+    "ipa": "epefiˈmiste",
+    "ko_pron": "에페프피미스테",
+    "words": [
+      {
+        "surface": "Επευφημήστε",
+        "base": "επευφημώ",
+        "pos": "동사 (명령형, 2인칭 복수)",
+        "ipa": "epefiˈmiste",
+        "meaning": "환호하세요/갈채를 보내세요",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "2인칭 복수 명령형이라 한 사람이 아니라 여러 사람을 향해 외치는 느낌을 줍니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "명령형"
+    ]
+  },
+  {
+    "id": "den-yparchei-pia-choros",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "이제 후회의 여지는 없습니다.",
+    "romanization": "",
+    "el": "Δεν υπάρχει πια χώρος για μετάνοια.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 팔라스가 배치될 때 하는 대사. 결연한 각오를 나타냅니다.",
+    "ipa": "ðen iˈparxi pja ˈxoros ʝa meˈtania",
+    "ko_pron": "덴 이파르히 퍄 호로스 야 메타니아",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "υπάρχει",
+        "base": "υπάρχω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "iˈparxi",
+        "meaning": "존재한다",
+        "note": "주어 없이 '~이 있다/없다'를 나타내는 비인칭 동사로 자주 쓰입니다."
+      },
+      {
+        "surface": "πια",
+        "base": "πια",
+        "pos": "부사",
+        "ipa": "pja",
+        "meaning": "더 이상",
+        "note": ""
+      },
+      {
+        "surface": "χώρος",
+        "base": "χώρος",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "ˈxoros",
+        "meaning": "공간/여지",
+        "note": ""
+      },
+      {
+        "surface": "για",
+        "base": "για",
+        "pos": "전치사",
+        "ipa": "ʝa",
+        "meaning": "~을 위한",
+        "note": ""
+      },
+      {
+        "surface": "μετάνοια",
+        "base": "μετάνοια",
+        "pos": "명사 (여성, 단수, 대격)",
+        "ipa": "meˈtania",
+        "meaning": "후회",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임"
+    ]
+  },
+  {
+    "id": "xekourastikate-kala-giatre",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "푹 쉬셨나요, 박사님.",
+    "romanization": "",
+    "el": "Ξεκουραστήκατε καλά, γιατρέ;",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 팔라스가 '인사' 대사로 하는 말. 존댓말로 안부를 묻습니다.",
+    "ipa": "ksekurasˈtikate kaˈla ʝaˈtre",
+    "ko_pron": "크세쿠라스티카테 칼라 야트레",
+    "words": [
+      {
+        "surface": "Ξεκουραστήκατε",
+        "base": "ξεκουράζομαι",
+        "pos": "동사 (과거형, 2인칭 복수/존칭, 재귀동사)",
+        "ipa": "ksekurasˈtikate",
+        "meaning": "당신은 쉬었다",
+        "note": ""
+      },
+      {
+        "surface": "καλά",
+        "base": "καλά",
+        "pos": "부사",
+        "ipa": "kaˈla",
+        "meaning": "잘",
+        "note": ""
+      },
+      {
+        "surface": "γιατρέ",
+        "base": "γιατρός",
+        "pos": "명사 (남성, 호격)",
+        "ipa": "ʝaˈtre",
+        "meaning": "의사 선생님",
+        "note": "호격 — 사람을 부를 때 쓰는 형태입니다."
+      }
+    ],
+    "notes": [
+      "그리스어는 사람을 부를 때 호격(vocative)이라는 별도 격을 씁니다. γιατρός(의사)의 호격은 γιατρέ 입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "존댓말",
+      "의문문"
+    ]
+  },
+  {
+    "id": "opos-epithymeite",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "당신의 뜻대로.",
+    "romanization": "",
+    "el": "Όπως επιθυμείτε.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 에라토가 오퍼레이터 선택 시 하는 대사. 정중하게 순응하는 표현입니다.",
+    "ipa": "ˈopos epiθiˈmite",
+    "ko_pron": "오포스 에피띠미테",
+    "words": [
+      {
+        "surface": "Όπως",
+        "base": "όπως",
+        "pos": "접속사",
+        "ipa": "ˈopos",
+        "meaning": "~하는 대로",
+        "note": ""
+      },
+      {
+        "surface": "επιθυμείτε",
+        "base": "επιθυμώ",
+        "pos": "동사 (현재형, 2인칭 복수/존칭)",
+        "ipa": "epiθiˈmite",
+        "meaning": "당신은 바란다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "존댓말",
+      "관용구"
+    ]
+  },
+  {
+    "id": "ena-chtypima-sigouros-thanatos",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "일격필살.",
+    "romanization": "",
+    "el": "Ένα χτύπημα, σίγουρος θάνατος.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 에라토가 전투 중 외치는 짧은 구호. 한국어 사자성어 '일격필살'(一擊必殺)을 살려 옮겼습니다.",
+    "ipa": "ˈena ˈxtipima ˈsiɣuros ˈθanatos",
+    "ko_pron": "에나 흐티피마 시구로스 따나토스",
+    "words": [
+      {
+        "surface": "Ένα",
+        "base": "ένας",
+        "pos": "부정관사 (중성, 단수, 주격)",
+        "ipa": "ˈena",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "χτύπημα",
+        "base": "χτύπημα",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "ˈxtipima",
+        "meaning": "타격/일격",
+        "note": ""
+      },
+      {
+        "surface": "σίγουρος",
+        "base": "σίγουρος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈsiɣuros",
+        "meaning": "확실한",
+        "note": "θάνατος 가 남성 명사라 남성형을 씁니다."
+      },
+      {
+        "surface": "θάνατος",
+        "base": "θάνατος",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "ˈθanatos",
+        "meaning": "죽음",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "완전한 문장이 아니라 명사구 두 개를 쉼표로 이어 강한 인상을 주는 구호체입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "관용구"
+    ]
+  },
+  {
+    "id": "thelete-na-akousete-to-tragoudi-mou",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "박사님, 제 노래가 듣고 싶으신가요?",
+    "romanization": "",
+    "el": "Γιατρέ, θέλετε να ακούσετε το τραγούδι μου;",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 에라토가 '인사' 대사로 하는 말.",
+    "ipa": "ʝaˈtre ˈθelete na aˈkusete to traˈɣuði mu",
+    "ko_pron": "야트레 뗄레테 나 아쿠세테 토 트라구디 무",
+    "words": [
+      {
+        "surface": "Γιατρέ",
+        "base": "γιατρός",
+        "pos": "명사 (남성, 호격)",
+        "ipa": "ʝaˈtre",
+        "meaning": "의사 선생님",
+        "note": ""
+      },
+      {
+        "surface": "θέλετε",
+        "base": "θέλω",
+        "pos": "동사 (현재형, 2인칭 복수/존칭)",
+        "ipa": "ˈθelete",
+        "meaning": "당신은 원한다",
+        "note": ""
+      },
+      {
+        "surface": "να",
+        "base": "να",
+        "pos": "접속사 (가정법 표지)",
+        "ipa": "na",
+        "meaning": "~하는 것을",
+        "note": ""
+      },
+      {
+        "surface": "ακούσετε",
+        "base": "ακούω",
+        "pos": "동사 (가정법, 완료상, 2인칭 복수)",
+        "ipa": "aˈkusete",
+        "meaning": "듣다",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 단수, 대격)",
+        "ipa": "to",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "τραγούδι",
+        "base": "τραγούδι",
+        "pos": "명사 (중성, 단수, 대격)",
+        "ipa": "traˈɣuði",
+        "meaning": "노래",
+        "note": ""
+      },
+      {
+        "surface": "μου",
+        "base": "εγώ",
+        "pos": "대명사 (소유격, 1인칭 단수)",
+        "ipa": "mu",
+        "meaning": "나의",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "존댓말",
+      "의문문"
+    ]
+  },
+  {
+    "id": "ola-entaxei",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "이상 없음!",
+    "romanization": "",
+    "el": "Όλα εντάξει!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 시데로카가 '인사' 대사로 하는 말. 군대식 보고 표현입니다.",
+    "ipa": "ˈola enˈdaksi",
+    "ko_pron": "올라 엔닥시",
+    "words": [
+      {
+        "surface": "Όλα",
+        "base": "όλος",
+        "pos": "대명사 (중성, 복수)",
+        "ipa": "ˈola",
+        "meaning": "모든 것",
+        "note": ""
+      },
+      {
+        "surface": "εντάξει",
+        "base": "εντάξει",
+        "pos": "부사",
+        "ipa": "enˈdaksi",
+        "meaning": "괜찮은/문제없는",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "직역하면 '모두 괜찮다'는 뜻으로, 한국어 '이상 없음'에 대응하는 자연스러운 관용구입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "관용구"
+    ]
+  },
+  {
+    "id": "tha-xekiniso",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "시작하겠습니다.",
+    "romanization": "",
+    "el": "Θα ξεκινήσω.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 시데로카가 작전 개시 시 하는 대사.",
+    "ipa": "θa ksekiˈniso",
+    "ko_pron": "따 크세키니소",
+    "words": [
+      {
+        "surface": "Θα",
+        "base": "θα",
+        "pos": "미래 표지",
+        "ipa": "θa",
+        "meaning": "~할 것이다",
+        "note": ""
+      },
+      {
+        "surface": "ξεκινήσω",
+        "base": "ξεκινώ",
+        "pos": "동사 (가정법/완료상, 1인칭 단수)",
+        "ipa": "ksekiˈniso",
+        "meaning": "시작하다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "θα + 가정법 동사로 미래시제를 만듭니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임"
+    ]
+  },
+  {
+    "id": "pese-kato",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "쓰러져라!",
+    "romanization": "",
+    "el": "Πέσε κάτω!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 시데로카가 전투 중 외치는 대사.",
+    "ipa": "ˈpese ˈkato",
+    "ko_pron": "페세 카토",
+    "words": [
+      {
+        "surface": "Πέσε",
+        "base": "πέφτω",
+        "pos": "동사 (명령형, 완료상, 2인칭 단수)",
+        "ipa": "ˈpese",
+        "meaning": "넘어져라",
+        "note": ""
+      },
+      {
+        "surface": "κάτω",
+        "base": "κάτω",
+        "pos": "부사",
+        "ipa": "ˈkato",
+        "meaning": "아래로",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "명령형"
+    ]
+  },
+  {
+    "id": "kalimera-giatre",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "좋은 아침, 박사.",
+    "romanization": "",
+    "el": "Καλημέρα, γιατρέ.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 벌컨이 '인사' 대사로 하는 말. 반말 상대에게 쓰는 짧은 아침 인사입니다.",
+    "ipa": "kaliˈmera ʝaˈtre",
+    "ko_pron": "칼리메라 야트레",
+    "words": [
+      {
+        "surface": "Καλημέρα",
+        "base": "καλημέρα",
+        "pos": "명사 (여성, 합성어)",
+        "ipa": "kaliˈmera",
+        "meaning": "좋은 아침",
+        "note": ""
+      },
+      {
+        "surface": "γιατρέ",
+        "base": "γιατρός",
+        "pos": "명사 (남성, 호격)",
+        "ipa": "ʝaˈtre",
+        "meaning": "의사 선생님",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "박사(Doctor)를 부를 때 흔히 쓰는 호칭인 γιατρός 의 호격형입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "반말"
+    ]
+  },
+  {
+    "id": "edo-eimai",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "여기야.",
+    "romanization": "",
+    "el": "Εδώ είμαι.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 벌컨이 오퍼레이터 선택 시 하는 짧은 대사.",
+    "ipa": "eˈðo ˈime",
+    "ko_pron": "에도 이메",
+    "words": [
+      {
+        "surface": "Εδώ",
+        "base": "εδώ",
+        "pos": "부사",
+        "ipa": "eˈðo",
+        "meaning": "여기",
+        "note": ""
+      },
+      {
+        "surface": "είμαι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈime",
+        "meaning": "나는 ~이다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "반말"
+    ]
+  },
+  {
+    "id": "parte-ta-opla",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "무기를 들어라!",
+    "romanization": "",
+    "el": "Πάρτε τα όπλα!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 벌컨이 전투 중 외치는 대사. 여러 사람을 향한 명령형입니다.",
+    "ipa": "ˈparte ta ˈopla",
+    "ko_pron": "파르테 타 오플라",
+    "words": [
+      {
+        "surface": "Πάρτε",
+        "base": "παίρνω",
+        "pos": "동사 (명령형, 완료상, 2인칭 복수)",
+        "ipa": "ˈparte",
+        "meaning": "가져가라/들어라",
+        "note": ""
+      },
+      {
+        "surface": "τα",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 복수, 대격)",
+        "ipa": "ta",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "όπλα",
+        "base": "όπλο",
+        "pos": "명사 (중성, 복수, 대격)",
+        "ipa": "ˈopla",
+        "meaning": "무기들",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "명령형"
+    ]
+  },
+  {
+    "id": "tha-ypakouso-sti-diatagi",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "명을 받들겠다.",
+    "romanization": "",
+    "el": "Θα υπακούσω στη διαταγή.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 바르카리스가 작전 출발 시 하는 대사. 예스럽고 격식 있는 어투입니다.",
+    "ipa": "θa ipaˈkuso sti ðiataˈʝi",
+    "ko_pron": "따 이파쿠소 스티 디아타이",
+    "words": [
+      {
+        "surface": "Θα",
+        "base": "θα",
+        "pos": "미래 표지",
+        "ipa": "θa",
+        "meaning": "~할 것이다",
+        "note": ""
+      },
+      {
+        "surface": "υπακούσω",
+        "base": "υπακούω",
+        "pos": "동사 (가정법/완료상, 1인칭 단수)",
+        "ipa": "ipaˈkuso",
+        "meaning": "복종하다",
+        "note": ""
+      },
+      {
+        "surface": "στη",
+        "base": "σε/το",
+        "pos": "전치사+관사 축약형",
+        "ipa": "sti",
+        "meaning": "~에",
+        "note": "σε+τη(여성 단수 대격 관사)의 축약형입니다."
+      },
+      {
+        "surface": "διαταγή",
+        "base": "διαταγή",
+        "pos": "명사 (여성, 단수, 대격)",
+        "ipa": "ðiataˈʝi",
+        "meaning": "명령",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임"
+    ]
+  },
+  {
+    "id": "epagrypnisi",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "경계를.",
+    "romanization": "",
+    "el": "Επαγρύπνηση.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 바르카리스가 작전 개시 시 하는 짧은 대사. 명사 하나로 명령을 대신합니다.",
+    "ipa": "epaˈɣripnisi",
+    "ko_pron": "에파그리프니시",
+    "words": [
+      {
+        "surface": "Επαγρύπνηση",
+        "base": "επαγρύπνηση",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "epaˈɣripnisi",
+        "meaning": "경계/불침번",
+        "note": "완전한 문장이 아니라 명사 하나로 '경계 태세를 갖추라'는 뜻을 전하는 축약된 명령입니다."
+      }
+    ],
+    "notes": [
+      "군대식 구호에서는 이렇게 명사 하나만으로 명령을 대신하는 경우가 흔합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "관용구"
+    ]
+  },
+  {
+    "id": "erchomai-tora",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "지금 가겠다!",
+    "romanization": "",
+    "el": "Έρχομαι τώρα!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 컨빅션이 오퍼레이터 선택 시 하는 대사.",
+    "ipa": "ˈerxome ˈtora",
+    "ko_pron": "에르호메 토라",
+    "words": [
+      {
+        "surface": "Έρχομαι",
+        "base": "έρχομαι",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈerxome",
+        "meaning": "나는 간다/온다",
+        "note": "그리스어 έρχομαι 는 '오다'와 '가다'를 모두 나타낼 수 있습니다 — 듣는 사람 쪽으로 움직인다는 뜻이기 때문입니다."
+      },
+      {
+        "surface": "τώρα",
+        "base": "τώρα",
+        "pos": "부사",
+        "ipa": "ˈtora",
+        "meaning": "지금",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "έρχομαι 는 현재형으로 가까운 미래의 일을 나타낼 때도 자주 씁니다 — 한국어 '지금 갈게'처럼요."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "반말"
+    ]
+  },
+  {
+    "id": "poion-vlepo-edo-o-giatros",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "오~ 이게 누구야, 박사 아닌가!",
+    "romanization": "",
+    "el": "Ω~ Ποιον βλέπω εδώ, δεν είναι ο γιατρός!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 컨빅션이 '인사' 대사로 하는 말. 과장된 반가움을 나타내는 관용적 인사입니다.",
+    "ipa": "o pjon ˈvlepo eˈðo ðen ˈine o ʝaˈtros",
+    "ko_pron": "오 푠 블레포 에도 덴 이네 오 야트로스",
+    "words": [
+      {
+        "surface": "Ω",
+        "base": "ω",
+        "pos": "감탄사",
+        "ipa": "o",
+        "meaning": "오",
+        "note": ""
+      },
+      {
+        "surface": "Ποιον",
+        "base": "ποιος",
+        "pos": "의문대명사 (남성, 단수, 대격)",
+        "ipa": "pjon",
+        "meaning": "누구를",
+        "note": ""
+      },
+      {
+        "surface": "βλέπω",
+        "base": "βλέπω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈvlepo",
+        "meaning": "나는 본다",
+        "note": ""
+      },
+      {
+        "surface": "εδώ",
+        "base": "εδώ",
+        "pos": "부사",
+        "ipa": "eˈðo",
+        "meaning": "여기",
+        "note": ""
+      },
+      {
+        "surface": "δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "ο",
+        "base": "ο/η/το",
+        "pos": "관사 (남성, 단수, 주격)",
+        "ipa": "o",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "γιατρός",
+        "base": "γιατρός",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "ʝaˈtros",
+        "meaning": "의사 선생님",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "직역은 '오, 내가 누구를 여기서 보고 있지, 의사 선생님이 아닌가!' 로, 반가움을 과장되게 표현하는 관용적인 인사입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "반말",
+      "감탄"
+    ]
+  },
+  {
+    "id": "den-fovamai",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "무섭지는 않아.",
+    "romanization": "",
+    "el": "Δεν φοβάμαι.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 퍼퓨머가 배치 시 하는 짧은 대사.",
+    "ipa": "ðen foˈvame",
+    "ko_pron": "덴 포바메",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "φοβάμαι",
+        "base": "φοβάμαι",
+        "pos": "동사 (현재형, 1인칭 단수, 재귀동사)",
+        "ipa": "foˈvame",
+        "meaning": "나는 무서워한다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "반말"
+    ]
+  },
+  {
+    "id": "iremise",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "침착해.",
+    "romanization": "",
+    "el": "Ηρέμησε.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 퍼퓨머가 전투 중 외치는 대사. 동료를 다독이는 말입니다.",
+    "ipa": "iˈremise",
+    "ko_pron": "이레미세",
+    "words": [
+      {
+        "surface": "Ηρέμησε",
+        "base": "ηρεμώ",
+        "pos": "동사 (명령형, 완료상, 2인칭 단수)",
+        "ipa": "iˈremise",
+        "meaning": "진정해",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "반말",
+      "명령형"
+    ]
+  },
+  {
+    "id": "girisa",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "다녀왔어.",
+    "romanization": "",
+    "el": "Γύρισα.",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 퍼퓨머 더 디스틸트가 시설에 배치될 때 하는 대사.",
+    "ipa": "ˈʝirisa",
+    "ko_pron": "이리사",
+    "words": [
+      {
+        "surface": "Γύρισα",
+        "base": "γυρίζω",
+        "pos": "동사 (과거형, 완료상, 1인칭 단수)",
+        "ipa": "ˈʝirisa",
+        "meaning": "나는 돌아왔다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "집이나 익숙한 곳에 돌아왔을 때 쓰는 아주 일상적인 인사말로, 한국어 '다녀왔습니다'와 쓰임이 비슷합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "기본"
+    ]
+  },
+  {
+    "id": "apostoli-oloklirothike",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "operators",
+    "ko": "아싸~ 임무 완료!",
+    "romanization": "",
+    "el": "Γιούπι~ Η αποστολή ολοκληρώθηκε!",
+    "literal_el": "",
+    "meaning": "게임 <명일방주>의 크루아상(경상도 사투리 캐릭터)이 3성 작전 종료 시 하는 대사. 표준 그리스어로 옮겼습니다.",
+    "ipa": "ˈʝupi i apostoˈli olokliˈroθike",
+    "ko_pron": "유피 이 아포스톨리 올로클리로띠케",
+    "words": [
+      {
+        "surface": "Γιούπι",
+        "base": "γιούπι",
+        "pos": "감탄사",
+        "ipa": "ˈʝupi",
+        "meaning": "야호/아싸",
+        "note": ""
+      },
+      {
+        "surface": "Η",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 주격)",
+        "ipa": "i",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "αποστολή",
+        "base": "αποστολή",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "apostoˈli",
+        "meaning": "임무",
+        "note": ""
+      },
+      {
+        "surface": "ολοκληρώθηκε",
+        "base": "ολοκληρώνομαι",
+        "pos": "동사 (과거형, 수동태, 3인칭 단수)",
+        "ipa": "olokliˈroθike",
+        "meaning": "완료되었다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "원문은 경상도 사투리('아싸~ 임무 완료!')지만, 그리스어에는 대응할 만한 지역 방언이 없어 표준어로 옮겼습니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "게임",
+      "감탄"
+    ]
   }
 ]
