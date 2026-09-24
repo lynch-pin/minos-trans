@@ -20,17 +20,6 @@ import {
   summarize,
 } from './entries.js';
 import {
-  loadAudioManifest,
-  hasNoAudioAtAll,
-  onVoiceChange,
-  voiceCount,
-  greekVoices,
-  currentVoice,
-  setPreferredVoice,
-  speak,
-  stop as stopSpeech,
-} from './speech.js';
-import {
   renderEntry,
   renderEntryList,
   renderVocabulary,
@@ -130,71 +119,6 @@ function refreshUsage() {
     `${model.label} · 이번 달 ${formatUsd(totals.costUsd)} · ${totals.requests}회`;
 }
 
-/* ── 발음 듣기 ─────────────────────────────────────────── */
-
-/**
- * 목소리 목록은 비동기로 채워지므로, 준비되면 화면을 다시 그려
- * 듣기 버튼이 뒤늦게라도 나타나게 한다.
- */
-function refreshSpeech() {
-  const note = $('#speech-note');
-
-  // 기기 음성도, 미리 만든 오디오도 하나도 없을 때만 안내한다 — 보통은
-  // 둘 중 하나가 항상 있어서 이 안내가 뜰 일이 없다.
-  if (hasNoAudioAtAll()) {
-    note.hidden = false;
-    note.textContent = '이 문장의 발음 오디오를 아직 준비하지 못했습니다.';
-  } else {
-    note.hidden = true;
-  }
-
-  // 이미 그려 둔 카드들에 버튼을 반영한다.
-  if (entries.length) {
-    if (shownPhrase) showEntryInDaily(shownPhrase);
-    refreshBrowse();
-    refreshVocabulary();
-  }
-
-  refreshVoicePicker();
-}
-
-/** 설정의 음성 목록. 어떤 음성이 쓰이는지 눈으로 확인하고 고를 수 있어야 한다. */
-function refreshVoicePicker() {
-  const select = $('#voice-select');
-  const note = $('#voice-note');
-  const test = $('#voice-test');
-  if (!select || !note || !test) return;
-
-  const voices = greekVoices();
-  const active = currentVoice();
-  select.replaceChildren();
-
-  if (!voices.length) {
-    const option = document.createElement('option');
-    option.textContent = '그리스어 음성 없음';
-    select.append(option);
-    select.disabled = true;
-    test.disabled = true;
-    note.textContent =
-      (voiceCount() > 0
-        ? `이 기기에 음성은 ${voiceCount()}개 있지만 그리스어는 없습니다. 운영체제 설정에서 그리스어 음성을 추가해 주세요.`
-        : '이 브라우저에서는 음성 합성을 쓸 수 없습니다.') +
-      ' 그 대신 미리 만들어 둔 오디오로 듣기 버튼은 그대로 동작합니다.';
-    return;
-  }
-
-  select.disabled = false;
-  test.disabled = false;
-  for (const voice of voices) {
-    const option = document.createElement('option');
-    option.value = voice.name;
-    option.textContent = `${voice.name} (${voice.lang})${voice.localService ? ' · 기기 내장' : ''}`;
-    select.append(option);
-  }
-  if (active) select.value = active.name;
-  note.textContent = `그리스어 음성 ${voices.length}개를 찾았습니다. 기기 전체 음성은 ${voiceCount()}개입니다.`;
-}
-
 /* ── 탭 ────────────────────────────────────────────────── */
 
 const TABS = [
@@ -205,7 +129,6 @@ const TABS = [
 ];
 
 function selectTab(tabSelector) {
-  stopSpeech(); // 탭을 옮기면 읽던 것을 멈춘다
   for (const [tab, panel] of TABS) {
     const isActive = tab === tabSelector;
     $(tab).classList.toggle('is-active', isActive);
@@ -344,12 +267,6 @@ function buildModelOptions() {
 }
 
 function openSettings() {
-  // 음성 목록에서 무슨 일이 나더라도 설정 자체는 열려야 한다.
-  try {
-    refreshVoicePicker();
-  } catch (error) {
-    console.error('음성 목록을 그리지 못했습니다:', error);
-  }
   $('#api-key').value = apiKey.get();
   $('#model-select').value = settings.getModel();
   $('#model-price').textContent = describeModelPrice(settings.getModel());
@@ -379,12 +296,6 @@ async function init() {
     button.addEventListener('click', openSettings);
   }
   on('#settings-save', 'click', saveSettings);
-  on('#voice-select', 'change', (event) => {
-    setPreferredVoice(event.target.value);
-  });
-  on('#voice-test', 'click', () => {
-    speak('Γεια σου! Αυτά είναι ελληνικά.', { rate: 1 });
-  });
   on('#settings-cancel', 'click', () => $('#settings-dialog').close());
   on('#clear-key', 'click', () => {
     apiKey.clear();
@@ -427,21 +338,17 @@ async function init() {
 
   refreshKeyDependentUi();
   refreshUsage();
-  onVoiceChange(refreshSpeech);
 
   // 데이터가 사이트의 본체다. 이것만 읽히면 키 없이 전부 동작한다.
   showLoading($('#daily-status'), '문장을 불러오는 중입니다…');
   try {
-    // 오디오 매니페스트를 함께 기다려서, 첫 렌더에서부터 듣기 버튼이
-    // 있어야 할 자리에 바로 나타나게 한다(나중에 깜빡이며 나타나지 않게).
-    [entries] = await Promise.all([loadEntries(), loadAudioManifest()]);
+    entries = await loadEntries();
     vocabulary = buildVocabulary(entries);
     categories = categoriesOf(entries);
     renderSummary($('#summary'), summarize(entries, vocabulary));
     loadDaily();
     refreshBrowse();
     refreshVocabulary();
-    refreshSpeech();
   } catch (error) {
     showError($('#daily-status'), error.message);
   }

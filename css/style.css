@@ -511,39 +511,4 @@ a { color: var(--accent); }
   color: var(--text-muted); overflow-wrap: anywhere;
 }
 
-/* ── 발음 듣기 ─────────────────────────────────────────── */
-
-.speak-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
-
-.speak {
-  appearance: none; font: inherit; font-size: 12.5px; font-weight: 550;
-  display: inline-flex; align-items: center; gap: 5px;
-  padding: 5px 11px; border-radius: 999px; cursor: pointer;
-  border: 1px solid var(--border); background: var(--bg-elev); color: var(--text-muted);
-  transition: background .12s, color .12s, border-color .12s;
-}
-.speak:hover { background: var(--accent-weak); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 28%, transparent); }
-.speak:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.speak.is-speaking { background: var(--accent); border-color: var(--accent); color: #fff; }
-
-/* 낱말 옆에 붙는 작은 버튼 — 글자 흐름을 방해하지 않게 테두리를 없앤다 */
-.speak-sm {
-  margin-left: 6px; padding: 2px; border-radius: 5px;
-  border-color: transparent; background: transparent;
-  vertical-align: middle;
-}
-.speak-sm:hover { background: var(--accent-weak); border-color: transparent; }
-.speak-sm.is-speaking { background: var(--accent); color: #fff; }
-
-.ex-el .speak-sm { margin-left: 7px; }
-
-.speak-note {
-  margin-top: 10px; font-size: 12.5px; color: var(--text-muted);
-  background: var(--bg-sunken); border: 1px solid var(--border-soft);
-  border-radius: var(--radius-sm); padding: 9px 12px;
-}
-.speak-note[hidden] { display: none; }
-
 .dialog-sep { border: 0; border-top: 1px solid var(--border-soft); margin: 18px 0; }
-#voice-test { margin-top: 8px; font-size: 13px; }
-#voice-test:disabled { opacity: .5; cursor: not-allowed; }

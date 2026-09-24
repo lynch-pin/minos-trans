@@ -5,55 +5,6 @@
  */
 
 import { compactNumber, groupedNumber, formatUsd, severityOf } from './usage.js';
-import { canSpeak, speak, SLOW_RATE } from './speech.js';
-
-/** 스피커 아이콘. 폰트에 기대지 않도록 SVG 로 그린다. */
-function speakerIcon(size = 14) {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('viewBox', '0 0 24 24');
-  svg.setAttribute('width', String(size));
-  svg.setAttribute('height', String(size));
-  svg.setAttribute('fill', 'none');
-  svg.setAttribute('stroke', 'currentColor');
-  svg.setAttribute('stroke-width', '2');
-  svg.setAttribute('stroke-linecap', 'round');
-  svg.setAttribute('stroke-linejoin', 'round');
-  svg.setAttribute('aria-hidden', 'true');
-  for (const d of ['M11 5 6 9H2v6h4l5 4V5z', 'M15.5 8.5a5 5 0 0 1 0 7', 'M19 5a9 9 0 0 1 0 14']) {
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    path.setAttribute('d', d);
-    svg.append(path);
-  }
-  return svg;
-}
-
-/**
- * 읽어 주는 버튼. 그리스어 목소리가 없는 기기에서는 아예 만들지 않는다.
- * 엉뚱한 언어 목소리로 읽어 주는 것보다 없는 편이 낫다.
- * @param {string} text 읽을 그리스어
- * @param {{slow?: boolean, label?: string, small?: boolean}} [options]
- */
-function speakButton(text, options = {}) {
-  if (!nonEmpty(text) || !canSpeak(text)) return null;
-
-  const button = el('button', options.small ? 'speak speak-sm' : 'speak');
-  button.type = 'button';
-  const name = options.slow ? '느리게 듣기' : '듣기';
-  button.setAttribute('aria-label', `${name}: ${text}`);
-  button.title = name;
-  button.append(speakerIcon(options.small ? 12 : 14));
-  if (options.label) button.append(el('span', null, options.label));
-
-  button.addEventListener('click', (event) => {
-    event.stopPropagation();
-    speak(text, {
-      rate: options.slow ? SLOW_RATE : 1,
-      onStart: () => button.classList.add('is-speaking'),
-      onEnd: () => button.classList.remove('is-speaking'),
-    });
-  });
-  return button;
-}
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -435,8 +386,6 @@ function entryWordList(words) {
     const head = el('span', 'word-surface');
     head.append(document.createTextNode(word.surface));
     if (nonEmpty(word.ipa)) head.append(el('span', 'word-ipa', `/${word.ipa}/`));
-    const say = speakButton(word.surface, { small: true });
-    if (say) head.append(say);
     row.append(head);
     row.append(el('span', 'word-meaning', word.meaning || ''));
     const gram = [word.pos, nonEmpty(word.base) && word.base !== word.surface ? `← ${word.base}` : '']
@@ -471,13 +420,6 @@ export function renderEntry(target, entry, options = {}) {
   head.append(el('p', 'headline-ko', entry.ko || ''));
   if (nonEmpty(entry.romanization)) head.append(el('p', 'romanization', `[${entry.romanization}]`));
   head.append(el('p', 'headline-el', entry.el || ''));
-
-  const speakRow = el('div', 'speak-row');
-  const normal = speakButton(entry.el, { label: '듣기' });
-  const slow = speakButton(entry.el, { slow: true, label: '느리게' });
-  if (normal) speakRow.append(normal);
-  if (slow) speakRow.append(slow);
-  if (speakRow.childElementCount) head.append(speakRow);
 
   // 발음 — IPA 는 정확하지만 읽기 어렵고, 한글은 읽기 쉽지만 근사치다. 둘 다 준다.
   if (nonEmpty(entry.ipa) || nonEmpty(entry.ko_pron)) {
@@ -524,13 +466,7 @@ export function renderEntry(target, entry, options = {}) {
     const box = section('예문');
     for (const ex of examples) {
       const quote = el('div', 'example');
-      if (nonEmpty(ex.el)) {
-        const line = el('p', 'ex-el');
-        line.append(document.createTextNode(ex.el));
-        const say = speakButton(ex.el, { small: true });
-        if (say) line.append(say);
-        quote.append(line);
-      }
+      if (nonEmpty(ex.el)) quote.append(el('p', 'ex-el', ex.el));
       if (nonEmpty(ex.ko)) quote.append(el('p', 'ex-ko', ex.ko));
       box.append(quote);
     }
@@ -597,8 +533,6 @@ export function renderVocabulary(target, vocabulary, onSelectSource) {
     const title = el('span', 'vocab-base');
     title.append(document.createTextNode(item.base));
     if (nonEmpty(item.ipa)) title.append(el('span', 'word-ipa', `/${item.ipa}/`));
-    const say = speakButton(item.base, { small: true });
-    if (say) title.append(say);
     main.append(title);
     if (nonEmpty(item.pos)) main.append(el('span', 'vocab-pos', item.pos));
     row.append(main);
