@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accurate Translator — 그리스어 · 한국어</title>
+<meta name="description" content="그리스어와 한국어를 서로 번역하고, 문장 속 단어 하나하나의 뜻을 풀어서 설명해 주는 학습 도구입니다.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇬🇷</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><b>EL</b><i>KO</i></span>
+      <div class="brand-text">
+        <h1>Accurate Translator</h1>
+        <p>그리스어 · 한국어 정밀 번역과 단어 풀이</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="다크 모드 전환" title="다크 모드 전환">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor" stroke="none"/></svg>
+      </button>
+      <button id="open-settings" class="btn btn-ghost" type="button">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V10a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg><span>설정</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs wrap" aria-label="섹션">
+  <button class="tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-daily" id="tab-daily">오늘의 표현</button>
+  <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-browse" id="tab-browse">모아보기</button>
+  <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-vocab" id="tab-vocab">단어장</button>
+  <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="panel-translate" id="tab-translate">번역기</button>
+</nav>
+
+<main id="main" class="wrap">
+
+  <div id="summary" class="summary" hidden></div>
+  <div id="speech-note" class="speak-note" hidden></div>
+
+  <!-- ───────────── 사용량 ───────────── -->
+  <details id="usage-box" class="usage" hidden>
+    <summary class="usage-summary">
+      <span class="usage-title">사용량</span>
+      <span class="usage-brief" id="usage-brief"></span>
+    </summary>
+    <div id="usage-body" class="usage-body"></div>
+    <div class="usage-actions">
+      <button type="button" id="usage-reset" class="btn btn-ghost btn-danger">누적 기록 초기화</button>
+    </div>
+  </details>
+
+  <!-- ───────────── 키 없음 안내 ───────────── -->
+  <section id="key-banner" class="banner" hidden>
+    <div class="banner-body">
+      <strong>번역기 탭은 API 키가 있어야 동작합니다.</strong>
+      <p>오늘의 숙어·모아보기·단어장은 키 없이 그대로 쓰실 수 있습니다. 아무 문장이나 새로 번역하고 싶을 때만 키가 필요합니다.</p>
+    </div>
+    <button class="btn btn-ghost" type="button" data-open-settings>키 등록하기</button>
+  </section>
+
+  <!-- ───────────── 오늘의 숙어 ───────────── -->
+  <section id="panel-daily" class="panel is-active" role="tabpanel" aria-labelledby="tab-daily">
+    <div class="panel-head">
+      <div>
+        <h2>오늘의 표현</h2>
+        <p class="muted" id="daily-date"></p>
+      </div>
+      <div class="panel-head-actions">
+        <button id="daily-refresh" class="btn btn-ghost" type="button" title="다른 표현 보기">다른 표현</button>
+      </div>
+    </div>
+    <div id="daily-status" class="status" hidden></div>
+    <article id="daily-card" class="card idiom-card" hidden></article>
+  </section>
+
+  <!-- ───────────── 모아보기 ───────────── -->
+  <section id="panel-browse" class="panel" role="tabpanel" aria-labelledby="tab-browse" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>모아보기</h2>
+        <p class="muted" id="browse-count"></p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input id="browse-search" type="search" placeholder="한국어·그리스어·뜻·태그로 검색" autocomplete="off" spellcheck="false">
+      <div class="chips" id="browse-filters" role="group" aria-label="분류 거르기"></div>
+    </div>
+
+    <article id="browse-detail" class="card" hidden></article>
+    <div id="browse-list" class="history-list"></div>
+  </section>
+
+  <!-- ───────────── 단어장 ───────────── -->
+  <section id="panel-vocab" class="panel" role="tabpanel" aria-labelledby="tab-vocab" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>단어장</h2>
+        <p class="muted" id="vocab-count"></p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input id="vocab-search" type="search" placeholder="낱말이나 뜻으로 검색" autocomplete="off" spellcheck="false">
+    </div>
+
+    <div id="vocab-list" class="vocab-list"></div>
+  </section>
+
+  <!-- ───────────── 번역기 ───────────── -->
+  <section id="panel-translate" class="panel" role="tabpanel" aria-labelledby="tab-translate" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>번역기</h2>
+        <p class="muted">아무 문장이나 새로 번역합니다. 이 탭만 API 키가 필요합니다.</p>
+      </div>
+    </div>
+
+    <form id="translate-form" class="card">
+      <div class="field">
+        <div class="field-head">
+          <label for="source-text">원문</label>
+          <div class="direction" role="group" aria-label="번역 방향">
+            <label><input type="radio" name="direction" value="auto" checked> 자동 감지</label>
+            <label><input type="radio" name="direction" value="ko-el"> 한국어 → 그리스어</label>
+            <label><input type="radio" name="direction" value="el-ko"> 그리스어 → 한국어</label>
+          </div>
+        </div>
+        <textarea id="source-text" rows="5" placeholder="예) 발 없는 말이 천 리 간다&#10;예) Δεν υπάρχει καπνός χωρίς φωτιά." spellcheck="false"></textarea>
+        <div class="field-foot">
+          <span class="muted small"><kbd>Ctrl</kbd>+<kbd>Enter</kbd> 로도 번역할 수 있습니다.</span>
+          <span class="muted small" id="char-count">0자</span>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="button" id="clear-btn" class="btn btn-ghost">지우기</button>
+        <button type="submit" id="translate-btn" class="btn btn-primary">번역하기</button>
+      </div>
+    </form>
+
+    <div id="translate-status" class="status" hidden></div>
+    <article id="translate-result" class="card result-card" hidden></article>
+  </section>
+
+
+</main>
+
+<footer class="site-footer wrap">
+  <p>모든 내용은 <code>data/entries.json</code> 에서 옵니다. 번역기 탭을 쓸 때만 브라우저가 Claude API를 직접 호출하며, API 키는 이 기기의 <code>localStorage</code> 에만 저장됩니다.</p>
+</footer>
+
+<!-- ───────────── 설정 ───────────── -->
+<dialog id="settings-dialog" class="dialog">
+  <form method="dialog" class="dialog-inner">
+    <h2>설정</h2>
+
+    <div class="dialog-body">
+
+    <div class="field">
+      <label for="api-key">Anthropic API 키</label>
+      <input id="api-key" type="password" autocomplete="off" spellcheck="false" placeholder="sk-ant-...">
+      <p class="muted small">
+        <a href="https://platform.claude.com/settings/keys" target="_blank" rel="noopener">platform.claude.com</a> 에서 발급할 수 있습니다.
+        지출 한도는 <a href="https://platform.claude.com/settings/workspaces" target="_blank" rel="noopener">Settings → Workspaces</a> 에서 거세요.
+      </p>
+    </div>
+
+    <div class="notice">
+      <strong>보안 안내</strong>
+      <p>이 사이트에는 서버가 없어서 키가 브라우저 안에서 그대로 쓰입니다. 이 기기를 쓰는 사람은 누구나 개발자 도구로 키를 볼 수 있으니, 공용 컴퓨터에서는 쓰지 마시고 사용량 한도를 걸어 둔 전용 키를 권장합니다.</p>
+    </div>
+
+    <div class="field">
+      <label for="voice-select">발음 음성</label>
+      <select id="voice-select"></select>
+      <p class="muted small" id="voice-note"></p>
+      <button type="button" id="voice-test" class="btn btn-ghost">이 음성으로 들어보기</button>
+    </div>
+
+    <hr class="dialog-sep">
+
+    <div class="field">
+      <label for="model-select">모델</label>
+      <select id="model-select"></select>
+      <p class="muted small" id="model-price"></p>
+    </div>
+
+    <div class="field">
+      <label for="effort-select">응답 품질 / 속도</label>
+      <select id="effort-select">
+        <option value="low">빠르게 (low)</option>
+        <option value="medium" selected>균형 (medium)</option>
+        <option value="high">꼼꼼하게 (high)</option>
+      </select>
+      <p class="muted small">꼼꼼할수록 설명이 자세해지지만 응답이 느려지고 비용이 늘어납니다.</p>
+    </div>
+    </div>
+
+    <div class="dialog-actions">
+      <button type="button" id="clear-key" class="btn btn-ghost btn-danger">키 삭제</button>
+      <div class="spacer"></div>
+      <button type="button" id="settings-cancel" class="btn btn-ghost">취소</button>
+      <button type="button" id="settings-save" class="btn btn-primary">저장</button>
+    </div>
+  </form>
+</dialog>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

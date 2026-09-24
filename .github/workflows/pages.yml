@@ -1,0 +1,52 @@
+# main 에 올라오면 사이트를 GitHub Pages 로 배포한다.
+#
+# 빌드 단계가 없는 정적 사이트라 레포를 그대로 올린다.
+#
+# 처음 한 번은 저장소 소유자가 Pages 를 켜 주어야 한다.
+#   Settings → Pages → Source 를 "GitHub Actions" 로
+# 워크플로 토큰에는 Pages 를 새로 만들 권한이 없어서
+# (Resource not accessible by integration) 이 단계만 사람이 해야 한다.
+# 한 번 켜 두면 그다음부터는 main 에 푸시할 때마다 자동으로 배포된다.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 배포는 겹치지 않게 한 번에 하나씩. 진행 중인 것을 끊지는 않는다.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Validate entries.json
+        run: python3 tools/validate.py
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

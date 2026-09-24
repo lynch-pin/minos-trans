@@ -1,0 +1,3006 @@
+[
+  {
+    "id": "gia-sou",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "인사",
+    "source": "",
+    "ko": "안녕!",
+    "romanization": "",
+    "el": "Γεια σου!",
+    "literal_el": "",
+    "meaning": "친한 사이나 또래에게 쓰는 기본 인사. 만날 때도 헤어질 때도 씁니다.",
+    "ipa": "ʝa su",
+    "ko_pron": "야 수",
+    "words": [
+      {
+        "surface": "Γεια",
+        "base": "γεια",
+        "pos": "감탄사",
+        "ipa": "ʝa",
+        "meaning": "안녕",
+        "note": "건강을 뜻하는 명사 γεια 에서 온 인사말입니다."
+      },
+      {
+        "surface": "σου",
+        "base": "σου",
+        "pos": "대명사 (소유격, 2인칭 단수)",
+        "ipa": "su",
+        "meaning": "너의",
+        "note": "직역하면 '너의 건강을' — γεια(건강)에 소유격 인칭대명사가 붙은 관용 인사입니다."
+      }
+    ],
+    "notes": [
+      "그리스어는 상대에 따라 εσύ(반말)/εσείς(존댓말) 를 구분합니다. Γεια σου 는 반말 상대에게 씁니다."
+    ],
+    "examples": [
+      {
+        "el": "Γεια σου, Δημήτρη!",
+        "ko": "안녕, 디미트리스!"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "반말"
+    ]
+  },
+  {
+    "id": "gia-sas",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "인사",
+    "source": "",
+    "ko": "안녕하세요!",
+    "romanization": "",
+    "el": "Γεια σας!",
+    "literal_el": "",
+    "meaning": "처음 보는 사람이나 여러 사람, 웃어른에게 쓰는 존댓말 인사.",
+    "ipa": "ʝa sas",
+    "ko_pron": "야 사스",
+    "words": [
+      {
+        "surface": "Γεια",
+        "base": "γεια",
+        "pos": "감탄사",
+        "ipa": "ʝa",
+        "meaning": "안녕",
+        "note": ""
+      },
+      {
+        "surface": "σας",
+        "base": "σας",
+        "pos": "대명사 (소유격, 2인칭 복수/존칭)",
+        "ipa": "sas",
+        "meaning": "당신의/여러분의",
+        "note": "εσείς 의 소유격입니다. 한 사람에게 존대할 때도, 여러 사람에게도 똑같이 씁니다."
+      }
+    ],
+    "notes": [
+      "그리스어의 존댓말은 동사와 소유격 대명사를 2인칭 복수형으로 바꾸는 것으로 나타냅니다. 한국어처럼 어미 전체가 바뀌지는 않습니다."
+    ],
+    "examples": [
+      {
+        "el": "Γεια σας, καλώς ήρθατε.",
+        "ko": "안녕하세요, 어서 오세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "kalimera",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "인사",
+    "source": "",
+    "ko": "좋은 아침이에요.",
+    "romanization": "",
+    "el": "Καλημέρα.",
+    "literal_el": "",
+    "meaning": "아침 인사. 대략 정오 무렵까지 씁니다.",
+    "ipa": "kaliˈmera",
+    "ko_pron": "칼리메라",
+    "words": [
+      {
+        "surface": "Καλημέρα",
+        "base": "καλημέρα",
+        "pos": "명사 (여성, 합성어)",
+        "ipa": "kaliˈmera",
+        "meaning": "좋은 아침",
+        "note": "καλή(좋은)+ημέρα(날)가 합쳐진 인사말입니다."
+      }
+    ],
+    "notes": [
+      "Καλησπέρα(좋은 저녁), Καληνύχτα(잘 자요) 도 같은 방식의 합성어입니다."
+    ],
+    "examples": [
+      {
+        "el": "Καλημέρα! Πώς κοιμήθηκες;",
+        "ko": "좋은 아침! 잘 잤어요?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "kalispera",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "인사",
+    "source": "",
+    "ko": "좋은 저녁이에요.",
+    "romanization": "",
+    "el": "Καλησπέρα.",
+    "literal_el": "",
+    "meaning": "저녁 인사. 대략 오후부터 해가 진 뒤까지 씁니다.",
+    "ipa": "kalisˈpera",
+    "ko_pron": "칼리스페라",
+    "words": [
+      {
+        "surface": "Καλησπέρα",
+        "base": "καλησπέρα",
+        "pos": "명사 (여성, 합성어)",
+        "ipa": "kalisˈpera",
+        "meaning": "좋은 저녁",
+        "note": "καλή+εσπέρα(저녁)가 합쳐진 말입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "kalinychta",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "인사",
+    "source": "",
+    "ko": "잘 자요.",
+    "romanization": "",
+    "el": "Καληνύχτα.",
+    "literal_el": "",
+    "meaning": "밤에 헤어지거나 잠자리에 들 때 하는 인사.",
+    "ipa": "kaliˈnixta",
+    "ko_pron": "칼리닉스타",
+    "words": [
+      {
+        "surface": "Καληνύχτα",
+        "base": "καληνύχτα",
+        "pos": "명사 (여성, 합성어)",
+        "ipa": "kaliˈnixta",
+        "meaning": "잘 자요",
+        "note": "καλή+νύχτα(밤)가 합쳐진 말입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ta-leme",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "인사",
+    "source": "",
+    "ko": "또 만나요.",
+    "romanization": "",
+    "el": "Τα λέμε!",
+    "literal_el": "",
+    "meaning": "헤어질 때 가볍게 쓰는 인사. 다음에 다시 본다는 뜻입니다.",
+    "ipa": "ta ˈleme",
+    "ko_pron": "타 레메",
+    "words": [
+      {
+        "surface": "Τα",
+        "base": "τα",
+        "pos": "관사 (중성, 복수, 대격)",
+        "ipa": "ta",
+        "meaning": "그것들을",
+        "note": "여기서는 '다음에 나눌 이야기들'을 가리키는 관용적 쓰임입니다."
+      },
+      {
+        "surface": "λέμε",
+        "base": "λέω",
+        "pos": "동사 (현재형, 1인칭 복수)",
+        "ipa": "ˈleme",
+        "meaning": "우리는 말한다",
+        "note": "직역은 '우리 그것들을 다시 말해요'."
+      }
+    ],
+    "notes": [
+      "Τα λέμε 는 통째로 외워 쓰는 관용구입니다. 안에 든 낱말을 하나씩 분석해도 뜻이 바로 나오지는 않습니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "반말"
+    ]
+  },
+  {
+    "id": "me-lene",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "소개",
+    "source": "",
+    "ko": "제 이름은 안나예요.",
+    "romanization": "",
+    "el": "Με λένε Άννα.",
+    "literal_el": "",
+    "meaning": "이름을 말할 때 가장 흔히 쓰는 표현.",
+    "ipa": "me ˈlene ˈana",
+    "ko_pron": "메 레네 아나",
+    "words": [
+      {
+        "surface": "Με",
+        "base": "με",
+        "pos": "대명사 (대격, 1인칭 단수)",
+        "ipa": "me",
+        "meaning": "나를",
+        "note": ""
+      },
+      {
+        "surface": "λένε",
+        "base": "λέω",
+        "pos": "동사 (현재형, 3인칭 복수)",
+        "ipa": "ˈlene",
+        "meaning": "그들은 부른다/말한다",
+        "note": "직역은 '그들이 나를 안나라고 부른다' — 이름을 말할 때 쓰는 관용 표현입니다. 이름(Άννα)은 단어장에 넣지 않습니다."
+      }
+    ],
+    "notes": [
+      "Είμαι η Άννα(나는 안나예요) 라고도 할 수 있지만, Με λένε... 쪽이 훨씬 더 자연스럽고 흔합니다."
+    ],
+    "examples": [
+      {
+        "el": "Με λένε Γιάννη. Εσένα;",
+        "ko": "제 이름은 야니예요. 당신은요?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "패턴"
+    ]
+  },
+  {
+    "id": "apo-tin-korea",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "소개",
+    "source": "",
+    "ko": "저는 한국에서 왔어요.",
+    "romanization": "",
+    "el": "Είμαι από την Κορέα.",
+    "literal_el": "",
+    "meaning": "출신지를 밝힐 때 쓰는 표현.",
+    "ipa": "ˈime aˈpo tin koˈrea",
+    "ko_pron": "이메 아포 틴 코레아",
+    "words": [
+      {
+        "surface": "Είμαι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈime",
+        "meaning": "나는 ~이다",
+        "note": "그리스어에서 가장 불규칙한 동사 중 하나입니다."
+      },
+      {
+        "surface": "από",
+        "base": "από",
+        "pos": "전치사",
+        "ipa": "aˈpo",
+        "meaning": "~에서/~로부터",
+        "note": "장소·출처를 나타내는 전치사는 뒤에 대격 명사가 옵니다."
+      },
+      {
+        "surface": "την",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 대격)",
+        "ipa": "tin",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "Κορέα",
+        "base": "Κορέα",
+        "pos": "명사 (여성, 대격)",
+        "ipa": "koˈrea",
+        "meaning": "한국",
+        "note": "-α 로 끝나는 여성 명사라 주격과 대격의 형태가 같습니다."
+      }
+    ],
+    "notes": [
+      "그리스어 명사는 남성·여성·중성 세 성과 주격·속격·대격·호격 네 격으로 변합니다. 나라 이름은 대부분 여성 명사입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "패턴"
+    ]
+  },
+  {
+    "id": "poson-xronon-eisai",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "소개",
+    "source": "",
+    "ko": "몇 살이에요?",
+    "romanization": "",
+    "el": "Πόσων χρονών είσαι;",
+    "literal_el": "",
+    "meaning": "나이를 묻는 표현. 반말 상대에게.",
+    "ipa": "ˈposon xroˈnon ˈise",
+    "ko_pron": "포손 흐로논 이세",
+    "words": [
+      {
+        "surface": "Πόσων",
+        "base": "πόσος",
+        "pos": "의문사 (속격, 복수)",
+        "ipa": "ˈposon",
+        "meaning": "얼마나 많은",
+        "note": "뒤에 오는 χρονών 과 함께 나이를 묻는 관용 표현을 이룹니다."
+      },
+      {
+        "surface": "χρονών",
+        "base": "χρόνος",
+        "pos": "명사 (남성, 복수, 속격)",
+        "ipa": "xroˈnon",
+        "meaning": "해/나이",
+        "note": ""
+      },
+      {
+        "surface": "είσαι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 2인칭 단수)",
+        "ipa": "ˈise",
+        "meaning": "너는 ~이다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "직역하면 '몇 해의 것이니?' 에 가깝습니다. 나이를 말할 때는 'Είμαι 30 χρονών(저는 서른 살이에요)' 처럼 같은 속격을 씁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "반말"
+    ]
+  },
+  {
+    "id": "me-ti-ascholeisai",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "소개",
+    "source": "",
+    "ko": "무슨 일 하세요?",
+    "romanization": "",
+    "el": "Με τι ασχολείσαι;",
+    "literal_el": "",
+    "meaning": "직업이나 하는 일을 물을 때. 반말 상대에게.",
+    "ipa": "me ti asxoˈlise",
+    "ko_pron": "메 티 아스홀리세",
+    "words": [
+      {
+        "surface": "Με",
+        "base": "με",
+        "pos": "전치사",
+        "ipa": "me",
+        "meaning": "~을 가지고/~로",
+        "note": "여기서는 대명사 με 와 철자가 같은 전치사입니다."
+      },
+      {
+        "surface": "τι",
+        "base": "τι",
+        "pos": "의문대명사",
+        "ipa": "ti",
+        "meaning": "무엇",
+        "note": ""
+      },
+      {
+        "surface": "ασχολείσαι",
+        "base": "ασχολούμαι",
+        "pos": "동사 (현재형, 2인칭 단수, 재귀동사)",
+        "ipa": "asxoˈlise",
+        "meaning": "너는 몰두한다/종사한다",
+        "note": "직역은 '무엇을 가지고 몰두해 있니?' — 직업을 묻는 자연스러운 표현입니다."
+      }
+    ],
+    "notes": [
+      "Τι δουλειά κάνεις;(무슨 일을 하니?) 도 같은 뜻으로 널리 씁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "반말"
+    ]
+  },
+  {
+    "id": "xarika-gnorimia",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "소개",
+    "source": "",
+    "ko": "만나서 반가워요.",
+    "romanization": "",
+    "el": "Χάρηκα για τη γνωριμία.",
+    "literal_el": "",
+    "meaning": "처음 만난 사람에게 하는 인사.",
+    "ipa": "ˈxarika ʝa ti ɣnoriˈmia",
+    "ko_pron": "하리카 야 티 그노리미아",
+    "words": [
+      {
+        "surface": "Χάρηκα",
+        "base": "χαίρομαι",
+        "pos": "동사 (과거형, 완료상, 1인칭 단수)",
+        "ipa": "ˈxarika",
+        "meaning": "나는 기뻤다",
+        "note": ""
+      },
+      {
+        "surface": "για",
+        "base": "για",
+        "pos": "전치사",
+        "ipa": "ʝa",
+        "meaning": "~에 대해",
+        "note": ""
+      },
+      {
+        "surface": "τη",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 대격)",
+        "ipa": "ti",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "γνωριμία",
+        "base": "γνωριμία",
+        "pos": "명사 (여성, 단수, 대격)",
+        "ipa": "ɣnoriˈmia",
+        "meaning": "만남/알게 됨",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "그리스어 동사는 완료상/미완료상을 구분합니다. Χάρηκα 는 '기뻐하다'의 완료상 과거형(단발적 사건)입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "milate-agglika",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "source": "",
+    "ko": "영어 할 줄 아세요?",
+    "romanization": "",
+    "el": "Μιλάτε αγγλικά;",
+    "literal_el": "",
+    "meaning": "영어 가능 여부를 물을 때. 존댓말.",
+    "ipa": "miˈlate aŋɡliˈka",
+    "ko_pron": "밀라테 앙글리카",
+    "words": [
+      {
+        "surface": "Μιλάτε",
+        "base": "μιλάω",
+        "pos": "동사 (현재형, 2인칭 복수/존칭)",
+        "ipa": "miˈlate",
+        "meaning": "당신은 말한다",
+        "note": ""
+      },
+      {
+        "surface": "αγγλικά",
+        "base": "αγγλικά",
+        "pos": "명사 (중성, 복수, 대격)",
+        "ipa": "aŋɡliˈka",
+        "meaning": "영어",
+        "note": "그리스어에서 언어 이름은 중성 복수형을 씁니다."
+      }
+    ],
+    "notes": [
+      "언어 이름 앞에는 관사를 붙이지 않는 것이 자연스럽습니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "den-katalavaino",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "source": "",
+    "ko": "이해가 안 돼요.",
+    "romanization": "",
+    "el": "Δεν καταλαβαίνω.",
+    "literal_el": "",
+    "meaning": "말을 못 알아들었을 때.",
+    "ipa": "ðen katalaˈveno",
+    "ko_pron": "덴 카탈라베노",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": "동사 앞에 놓여 부정문을 만듭니다."
+      },
+      {
+        "surface": "καταλαβαίνω",
+        "base": "καταλαβαίνω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "katalaˈveno",
+        "meaning": "나는 이해한다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "boreite-epanalavete",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "source": "",
+    "ko": "다시 한번 말씀해 주시겠어요?",
+    "romanization": "",
+    "el": "Μπορείτε να το επαναλάβετε;",
+    "literal_el": "",
+    "meaning": "상대의 말을 다시 듣고 싶을 때. 존댓말.",
+    "ipa": "boˈrite na to epanaˈlavete",
+    "ko_pron": "보리테 나 토 에파날라베테",
+    "words": [
+      {
+        "surface": "Μπορείτε",
+        "base": "μπορώ",
+        "pos": "동사 (현재형, 2인칭 복수/존칭)",
+        "ipa": "boˈrite",
+        "meaning": "당신은 할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "να",
+        "base": "να",
+        "pos": "접속사 (가정법 표지)",
+        "ipa": "na",
+        "meaning": "~하는 것을",
+        "note": "동사 원형이 없는 그리스어에서 να + 동사(가정법)가 영어의 to부정사 같은 역할을 합니다."
+      },
+      {
+        "surface": "το",
+        "base": "το",
+        "pos": "대명사 (중성, 단수, 대격)",
+        "ipa": "to",
+        "meaning": "그것을",
+        "note": ""
+      },
+      {
+        "surface": "επαναλάβετε",
+        "base": "επαναλαμβάνω",
+        "pos": "동사 (가정법, 완료상, 2인칭 복수)",
+        "ipa": "epanaˈlavete",
+        "meaning": "반복하다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Μπορείτε να... 는 '~해 주실 수 있나요?' 라는 뜻의 정중한 요청 패턴입니다. να 뒤 동사는 늘 가정법 형태입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "milhste-liga-pio-arga",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "source": "",
+    "ko": "좀 천천히 말씀해 주세요.",
+    "romanization": "",
+    "el": "Μιλήστε λίγο πιο αργά, παρακαλώ.",
+    "literal_el": "",
+    "meaning": "말이 너무 빠를 때 부탁하는 표현. 존댓말.",
+    "ipa": "miˈliste ˈliɣo pço arˈɣa parakaˈlo",
+    "ko_pron": "밀리스테 리고 표 아르가 파라칼로",
+    "words": [
+      {
+        "surface": "Μιλήστε",
+        "base": "μιλάω",
+        "pos": "동사 (명령형, 완료상, 2인칭 복수/존칭)",
+        "ipa": "miˈliste",
+        "meaning": "말하세요",
+        "note": ""
+      },
+      {
+        "surface": "λίγο",
+        "base": "λίγο",
+        "pos": "부사",
+        "ipa": "ˈliɣo",
+        "meaning": "조금",
+        "note": ""
+      },
+      {
+        "surface": "πιο",
+        "base": "πιο",
+        "pos": "부사 (비교급 표지)",
+        "ipa": "pço",
+        "meaning": "더",
+        "note": "형용사·부사 앞에 놓여 비교급을 만듭니다."
+      },
+      {
+        "surface": "αργά",
+        "base": "αργά",
+        "pos": "부사",
+        "ipa": "arˈɣa",
+        "meaning": "천천히",
+        "note": ""
+      },
+      {
+        "surface": "παρακαλώ",
+        "base": "παρακαλώ",
+        "pos": "감탄사",
+        "ipa": "parakaˈlo",
+        "meaning": "부탁합니다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "pos-legetai-ellinika",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "언어·소통",
+    "source": "",
+    "ko": "이게 그리스어로 뭐예요?",
+    "romanization": "",
+    "el": "Πώς λέγεται αυτό στα ελληνικά;",
+    "literal_el": "",
+    "meaning": "단어나 표현을 물을 때.",
+    "ipa": "pos ˈleʝete afˈto sta eliniˈka",
+    "ko_pron": "포스 레예테 아프토 스타 엘리니카",
+    "words": [
+      {
+        "surface": "Πώς",
+        "base": "πώς",
+        "pos": "의문부사",
+        "ipa": "pos",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "λέγεται",
+        "base": "λέγομαι",
+        "pos": "동사 (현재형, 수동태, 3인칭 단수)",
+        "ipa": "ˈleʝete",
+        "meaning": "불린다",
+        "note": "직역은 '이것이 어떻게 불리나요?' 입니다."
+      },
+      {
+        "surface": "αυτό",
+        "base": "αυτός",
+        "pos": "대명사 (중성, 단수, 주격)",
+        "ipa": "afˈto",
+        "meaning": "이것",
+        "note": ""
+      },
+      {
+        "surface": "στα",
+        "base": "σε/το",
+        "pos": "전치사+관사 축약형",
+        "ipa": "sta",
+        "meaning": "~에서",
+        "note": "전치사 σε 와 관사 τα(중성 복수)가 합쳐진 형태입니다."
+      },
+      {
+        "surface": "ελληνικά",
+        "base": "ελληνικά",
+        "pos": "명사 (중성, 복수, 대격)",
+        "ipa": "eliniˈka",
+        "meaning": "그리스어",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "σε(~에) 는 관사와 자주 축약됩니다: σε+το→στο, σε+τη(ν)→στη(ν), σε+τα→στα."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "parakalo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "예의",
+    "source": "",
+    "ko": "부탁드려요.",
+    "romanization": "",
+    "el": "Παρακαλώ.",
+    "literal_el": "",
+    "meaning": "부탁할 때, 또는 고맙다는 말에 답할 때 모두 쓰는 표현.",
+    "ipa": "parakaˈlo",
+    "ko_pron": "파라칼로",
+    "words": [
+      {
+        "surface": "Παρακαλώ",
+        "base": "παρακαλώ",
+        "pos": "감탄사",
+        "ipa": "parakaˈlo",
+        "meaning": "부탁합니다/천만에요",
+        "note": "영어 please 와 you're welcome 양쪽 역할을 다 합니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "efcharisto",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "예의",
+    "source": "",
+    "ko": "감사합니다.",
+    "romanization": "",
+    "el": "Ευχαριστώ.",
+    "literal_el": "",
+    "meaning": "고마움을 표현하는 기본 표현.",
+    "ipa": "efxarisˈto",
+    "ko_pron": "에프하리스토",
+    "words": [
+      {
+        "surface": "Ευχαριστώ",
+        "base": "ευχαριστώ",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "efxarisˈto",
+        "meaning": "나는 감사한다",
+        "note": "동사 형태 그대로 감탄사처럼 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "sygnomi",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "예의",
+    "source": "",
+    "ko": "죄송합니다.",
+    "romanization": "",
+    "el": "Συγγνώμη.",
+    "literal_el": "",
+    "meaning": "사과할 때, 또는 지나가겠다고 양해를 구할 때.",
+    "ipa": "siˈɣnomi",
+    "ko_pron": "시그노미",
+    "words": [
+      {
+        "surface": "Συγγνώμη",
+        "base": "συγγνώμη",
+        "pos": "명사 (여성)",
+        "ipa": "siˈɣnomi",
+        "meaning": "용서",
+        "note": "직역은 '용서를' — 사과와 '실례합니다' 양쪽에 다 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "tipota",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "예의",
+    "source": "",
+    "ko": "천만에요.",
+    "romanization": "",
+    "el": "Τίποτα.",
+    "literal_el": "",
+    "meaning": "고맙다는 말에 가볍게 답할 때.",
+    "ipa": "ˈtipota",
+    "ko_pron": "티포타",
+    "words": [
+      {
+        "surface": "Τίποτα",
+        "base": "τίποτα",
+        "pos": "대명사",
+        "ipa": "ˈtipota",
+        "meaning": "아무것도 (아니에요)",
+        "note": "직역은 '아무것도 아니에요'."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "반말"
+    ]
+  },
+  {
+    "id": "ton-logariasmo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "source": "",
+    "ko": "계산서 주시겠어요?",
+    "romanization": "",
+    "el": "Μπορώ να έχω τον λογαριασμό, παρακαλώ;",
+    "literal_el": "",
+    "meaning": "식당에서 계산할 때 쓰는 표현.",
+    "ipa": "boˈro na ˈexo ton loɣarjazˈmo parakaˈlo",
+    "ko_pron": "보로 나 에호 톤 로가리아즈모 파라칼로",
+    "words": [
+      {
+        "surface": "Μπορώ",
+        "base": "μπορώ",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "boˈro",
+        "meaning": "나는 할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "να",
+        "base": "να",
+        "pos": "접속사 (가정법 표지)",
+        "ipa": "na",
+        "meaning": "~하는 것을",
+        "note": ""
+      },
+      {
+        "surface": "έχω",
+        "base": "έχω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈexo",
+        "meaning": "나는 가지다",
+        "note": ""
+      },
+      {
+        "surface": "τον",
+        "base": "ο/η/το",
+        "pos": "관사 (남성, 단수, 대격)",
+        "ipa": "ton",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "λογαριασμό",
+        "base": "λογαριασμός",
+        "pos": "명사 (남성, 단수, 대격)",
+        "ipa": "loɣarjazˈmo",
+        "meaning": "계산서",
+        "note": ""
+      },
+      {
+        "surface": "παρακαλώ",
+        "base": "παρακαλώ",
+        "pos": "감탄사",
+        "ipa": "parakaˈlo",
+        "meaning": "부탁합니다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Μπορώ να έχω...; 는 '~을 받을 수 있을까요?' 라는 뜻의 정중한 요청 패턴으로 카페·상점에서 두루 씁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "enan-kafe",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "source": "",
+    "ko": "커피 한 잔 주세요.",
+    "romanization": "",
+    "el": "Έναν καφέ, παρακαλώ.",
+    "literal_el": "",
+    "meaning": "주문할 때 쓰는 가장 기본적인 표현.",
+    "ipa": "ˈenan kaˈfe parakaˈlo",
+    "ko_pron": "에난 카페 파라칼로",
+    "words": [
+      {
+        "surface": "Έναν",
+        "base": "ένας",
+        "pos": "부정관사 (남성, 단수, 대격)",
+        "ipa": "ˈenan",
+        "meaning": "하나의",
+        "note": ""
+      },
+      {
+        "surface": "καφέ",
+        "base": "καφές",
+        "pos": "명사 (남성, 단수, 대격)",
+        "ipa": "kaˈfe",
+        "meaning": "커피",
+        "note": ""
+      },
+      {
+        "surface": "παρακαλώ",
+        "base": "παρακαλώ",
+        "pos": "감탄사",
+        "ipa": "parakaˈlo",
+        "meaning": "부탁합니다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "동사 없이 '부정관사+명사, παρακαλώ' 만으로도 주문이 됩니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴"
+    ]
+  },
+  {
+    "id": "eimai-chortofagos",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "source": "",
+    "ko": "저는 채식주의자예요.",
+    "romanization": "",
+    "el": "Είμαι χορτοφάγος.",
+    "literal_el": "",
+    "meaning": "식성을 미리 알릴 때.",
+    "ipa": "ˈime xortoˈfaɣos",
+    "ko_pron": "이메 호르토파고스",
+    "words": [
+      {
+        "surface": "Είμαι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈime",
+        "meaning": "나는 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "χορτοφάγος",
+        "base": "χορτοφάγος",
+        "pos": "명사 (공성, 단수, 주격)",
+        "ipa": "xortoˈfaɣos",
+        "meaning": "채식주의자",
+        "note": "남성·여성형이 같은 공성(공통성) 명사입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ti-proteinete",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "source": "",
+    "ko": "무엇을 추천하세요?",
+    "romanization": "",
+    "el": "Τι προτείνετε;",
+    "literal_el": "",
+    "meaning": "메뉴를 고르기 어려울 때. 존댓말.",
+    "ipa": "ti proˈtinete",
+    "ko_pron": "티 프로티네테",
+    "words": [
+      {
+        "surface": "Τι",
+        "base": "τι",
+        "pos": "의문대명사",
+        "ipa": "ti",
+        "meaning": "무엇을",
+        "note": ""
+      },
+      {
+        "surface": "προτείνετε",
+        "base": "προτείνω",
+        "pos": "동사 (현재형, 2인칭 복수/존칭)",
+        "ipa": "proˈtinete",
+        "meaning": "당신은 추천한다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "pentanostimo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "카페·식당",
+    "source": "",
+    "ko": "맛있어요!",
+    "romanization": "",
+    "el": "Είναι πεντανόστιμο!",
+    "literal_el": "",
+    "meaning": "음식이 아주 맛있을 때 하는 감탄.",
+    "ipa": "ˈine pendaˈnostimo",
+    "ko_pron": "이네 펜다노스티모",
+    "words": [
+      {
+        "surface": "Είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "πεντανόστιμο",
+        "base": "πεντανόστιμος",
+        "pos": "형용사 (중성, 단수, 주격)",
+        "ipa": "pendaˈnostimo",
+        "meaning": "아주 맛있는",
+        "note": "πεντα-(다섯/매우)와 νόστιμος(맛있는)가 합쳐진 강조 표현입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "감탄"
+    ]
+  },
+  {
+    "id": "poso-kanei-afto",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "source": "",
+    "ko": "이거 얼마예요?",
+    "romanization": "",
+    "el": "Πόσο κάνει αυτό;",
+    "literal_el": "",
+    "meaning": "가격을 물을 때 쓰는 가장 기본적인 표현.",
+    "ipa": "ˈposo ˈkani afˈto",
+    "ko_pron": "포소 카니 아프토",
+    "words": [
+      {
+        "surface": "Πόσο",
+        "base": "πόσο",
+        "pos": "의문부사",
+        "ipa": "ˈposo",
+        "meaning": "얼마나",
+        "note": ""
+      },
+      {
+        "surface": "κάνει",
+        "base": "κάνω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈkani",
+        "meaning": "그것은 한다",
+        "note": "직역은 '이것이 얼마를 한다' — 가격을 물을 때 쓰는 관용 표현입니다."
+      },
+      {
+        "surface": "αυτό",
+        "base": "αυτός",
+        "pos": "대명사 (중성, 단수, 주격)",
+        "ipa": "afˈto",
+        "meaning": "이것",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "boro-na-to-dokimaso",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "source": "",
+    "ko": "이거 입어 봐도 될까요?",
+    "romanization": "",
+    "el": "Μπορώ να το δοκιμάσω;",
+    "literal_el": "",
+    "meaning": "옷이나 신발을 입어 볼 때. 존댓말.",
+    "ipa": "boˈro na to ðokiˈmaso",
+    "ko_pron": "보로 나 토 도키마소",
+    "words": [
+      {
+        "surface": "Μπορώ",
+        "base": "μπορώ",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "boˈro",
+        "meaning": "나는 할 수 있다",
+        "note": ""
+      },
+      {
+        "surface": "να",
+        "base": "να",
+        "pos": "접속사 (가정법 표지)",
+        "ipa": "na",
+        "meaning": "~하는 것을",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "το",
+        "pos": "대명사 (중성, 단수, 대격)",
+        "ipa": "to",
+        "meaning": "그것을",
+        "note": ""
+      },
+      {
+        "surface": "δοκιμάσω",
+        "base": "δοκιμάζω",
+        "pos": "동사 (가정법, 완료상, 1인칭 단수)",
+        "ipa": "ðokiˈmaso",
+        "meaning": "시도하다/입어 보다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "echete-allo-megethos",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "source": "",
+    "ko": "다른 사이즈 있어요?",
+    "romanization": "",
+    "el": "Έχετε άλλο μέγεθος;",
+    "literal_el": "",
+    "meaning": "사이즈를 바꿔 달라고 할 때. 존댓말.",
+    "ipa": "ˈexete ˈalo ˈmeʝeθos",
+    "ko_pron": "에헤테 알로 메예또스",
+    "words": [
+      {
+        "surface": "Έχετε",
+        "base": "έχω",
+        "pos": "동사 (현재형, 2인칭 복수/존칭)",
+        "ipa": "ˈexete",
+        "meaning": "당신은 가지다",
+        "note": ""
+      },
+      {
+        "surface": "άλλο",
+        "base": "άλλος",
+        "pos": "형용사 (중성, 단수, 대격)",
+        "ipa": "ˈalo",
+        "meaning": "다른",
+        "note": ""
+      },
+      {
+        "surface": "μέγεθος",
+        "base": "μέγεθος",
+        "pos": "명사 (중성, 단수, 대격)",
+        "ipa": "ˈmeʝeθos",
+        "meaning": "크기/사이즈",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문",
+      "존댓말"
+    ]
+  },
+  {
+    "id": "aplos-koitazo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "쇼핑",
+    "source": "",
+    "ko": "그냥 구경하는 거예요.",
+    "romanization": "",
+    "el": "Απλώς κοιτάζω.",
+    "literal_el": "",
+    "meaning": "점원이 도움이 필요한지 물을 때의 대답.",
+    "ipa": "aˈplos kiˈtazo",
+    "ko_pron": "아플로스 키타조",
+    "words": [
+      {
+        "surface": "Απλώς",
+        "base": "απλώς",
+        "pos": "부사",
+        "ipa": "aˈplos",
+        "meaning": "그냥/단순히",
+        "note": ""
+      },
+      {
+        "surface": "κοιτάζω",
+        "base": "κοιτάζω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "kiˈtazo",
+        "meaning": "나는 본다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "pou-einai-i-toualeta",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "길·교통",
+    "source": "",
+    "ko": "화장실이 어디예요?",
+    "romanization": "",
+    "el": "Πού είναι η τουαλέτα;",
+    "literal_el": "",
+    "meaning": "위치를 물을 때 가장 자주 쓰는 패턴.",
+    "ipa": "pu ˈine i tuaˈleta",
+    "ko_pron": "푸 이네 이 투알레타",
+    "words": [
+      {
+        "surface": "Πού",
+        "base": "πού",
+        "pos": "의문부사",
+        "ipa": "pu",
+        "meaning": "어디",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "η",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 주격)",
+        "ipa": "i",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "τουαλέτα",
+        "base": "τουαλέτα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "tuaˈleta",
+        "meaning": "화장실",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "Πού είναι...; (~이 어디예요?) 는 뒤에 명사만 바꿔 끼우면 되는 아주 쓸모 있는 패턴입니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "pos-pao-ston-stathmo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "길·교통",
+    "source": "",
+    "ko": "역까지 어떻게 가요?",
+    "romanization": "",
+    "el": "Πώς πάω στον σταθμό;",
+    "literal_el": "",
+    "meaning": "길을 물을 때.",
+    "ipa": "pos ˈpao ston staθˈmo",
+    "ko_pron": "포스 파오 스톤 스타뜨모",
+    "words": [
+      {
+        "surface": "Πώς",
+        "base": "πώς",
+        "pos": "의문부사",
+        "ipa": "pos",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "πάω",
+        "base": "πάω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈpao",
+        "meaning": "나는 간다",
+        "note": ""
+      },
+      {
+        "surface": "στον",
+        "base": "σε/το",
+        "pos": "전치사+관사 축약형",
+        "ipa": "ston",
+        "meaning": "~로",
+        "note": "σε(~로)+τον(남성 단수 대격 관사)의 축약형입니다."
+      },
+      {
+        "surface": "σταθμό",
+        "base": "σταθμός",
+        "pos": "명사 (남성, 단수, 대격)",
+        "ipa": "staθˈmo",
+        "meaning": "역",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "echo-xathei",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "길·교통",
+    "source": "",
+    "ko": "길을 잃었어요.",
+    "romanization": "",
+    "el": "Έχω χαθεί.",
+    "literal_el": "",
+    "meaning": "길을 잃었을 때.",
+    "ipa": "ˈexo xaˈθi",
+    "ko_pron": "에호 하띠",
+    "words": [
+      {
+        "surface": "Έχω",
+        "base": "έχω",
+        "pos": "동사 (현재완료 조동사, 1인칭 단수)",
+        "ipa": "ˈexo",
+        "meaning": "나는 ~한 상태를 가지다",
+        "note": ""
+      },
+      {
+        "surface": "χαθεί",
+        "base": "χάνομαι",
+        "pos": "동사 (완료 부정사형, 수동태)",
+        "ipa": "xaˈθi",
+        "meaning": "길을 잃다",
+        "note": "직역은 '나는 잃어진 상태를 가지고 있다' — έχω+완료 부정사로 만드는 현재완료 수동형입니다."
+      }
+    ],
+    "notes": [
+      "그리스어 현재완료는 έχω(가지다)+완료 부정사(3인칭 단수 가정법과 같은 형태) 로 만듭니다. 영어의 have + p.p. 와 구조가 비슷합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "문법"
+    ]
+  },
+  {
+    "id": "posi-ora-tha-parei",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "길·교통",
+    "source": "",
+    "ko": "얼마나 걸려요?",
+    "romanization": "",
+    "el": "Πόση ώρα θα πάρει;",
+    "literal_el": "",
+    "meaning": "소요 시간을 물을 때.",
+    "ipa": "ˈposi ˈora θa ˈpari",
+    "ko_pron": "포시 오라 따 파리",
+    "words": [
+      {
+        "surface": "Πόση",
+        "base": "πόσος",
+        "pos": "의문형용사 (여성, 단수, 주격)",
+        "ipa": "ˈposi",
+        "meaning": "얼마나 많은",
+        "note": ""
+      },
+      {
+        "surface": "ώρα",
+        "base": "ώρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈora",
+        "meaning": "시간",
+        "note": ""
+      },
+      {
+        "surface": "θα",
+        "base": "θα",
+        "pos": "미래 표지",
+        "ipa": "θa",
+        "meaning": "~할 것이다",
+        "note": "동사 앞에 놓여 미래시제를 만듭니다."
+      },
+      {
+        "surface": "πάρει",
+        "base": "παίρνω",
+        "pos": "동사 (가정법, 완료상, 3인칭 단수)",
+        "ipa": "ˈpari",
+        "meaning": "걸리다/가지다가다",
+        "note": "직역은 '얼마나 많은 시간을 가져갈까?' 입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "afto-to-leoforeio",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "길·교통",
+    "source": "",
+    "ko": "이 버스가 시내로 가나요?",
+    "romanization": "",
+    "el": "Αυτό το λεωφορείο πάει στο κέντρο;",
+    "literal_el": "",
+    "meaning": "버스나 지하철이 목적지로 가는지 확인할 때.",
+    "ipa": "afˈto to leofoˈrio ˈpai sto ˈkendro",
+    "ko_pron": "아프토 토 레오포리오 파이 스토 켄드로",
+    "words": [
+      {
+        "surface": "Αυτό",
+        "base": "αυτός",
+        "pos": "지시대명사 (중성, 단수, 주격)",
+        "ipa": "afˈto",
+        "meaning": "이",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 단수, 주격)",
+        "ipa": "to",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "λεωφορείο",
+        "base": "λεωφορείο",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "leofoˈrio",
+        "meaning": "버스",
+        "note": ""
+      },
+      {
+        "surface": "πάει",
+        "base": "πάω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈpai",
+        "meaning": "그것은 간다",
+        "note": ""
+      },
+      {
+        "surface": "στο",
+        "base": "σε/το",
+        "pos": "전치사+관사 축약형",
+        "ipa": "sto",
+        "meaning": "~로",
+        "note": "σε+το(중성 단수)의 축약형입니다."
+      },
+      {
+        "surface": "κέντρο",
+        "base": "κέντρο",
+        "pos": "명사 (중성, 단수, 대격)",
+        "ipa": "ˈkendro",
+        "meaning": "중심가/시내",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문문"
+    ]
+  },
+  {
+    "id": "ti-ora-einai",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "source": "",
+    "ko": "지금 몇 시예요?",
+    "romanization": "",
+    "el": "Τι ώρα είναι;",
+    "literal_el": "",
+    "meaning": "시간을 물을 때 쓰는 기본 표현.",
+    "ipa": "ti ˈora ˈine",
+    "ko_pron": "티 오라 이네",
+    "words": [
+      {
+        "surface": "Τι",
+        "base": "τι",
+        "pos": "의문형용사",
+        "ipa": "ti",
+        "meaning": "몇/무슨",
+        "note": ""
+      },
+      {
+        "surface": "ώρα",
+        "base": "ώρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈora",
+        "meaning": "시간",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "echo-kanei-kratisi",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "source": "",
+    "ko": "예약했어요.",
+    "romanization": "",
+    "el": "Έχω κάνει κράτηση.",
+    "literal_el": "",
+    "meaning": "식당이나 숙소에 도착해서 예약을 알릴 때.",
+    "ipa": "ˈexo ˈkani ˈkratisi",
+    "ko_pron": "에호 카니 크라티시",
+    "words": [
+      {
+        "surface": "Έχω",
+        "base": "έχω",
+        "pos": "동사 (현재완료 조동사, 1인칭 단수)",
+        "ipa": "ˈexo",
+        "meaning": "나는 ~한 상태를 가지다",
+        "note": ""
+      },
+      {
+        "surface": "κάνει",
+        "base": "κάνω",
+        "pos": "동사 (완료 부정사형)",
+        "ipa": "ˈkani",
+        "meaning": "하다/만들다",
+        "note": "그리스어 현재완료는 έχω+완료 부정사(3인칭 단수 형태와 같음)로 만듭니다."
+      },
+      {
+        "surface": "κράτηση",
+        "base": "κράτηση",
+        "pos": "명사 (여성, 단수, 대격)",
+        "ipa": "ˈkratisi",
+        "meaning": "예약",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "문법"
+    ]
+  },
+  {
+    "id": "ta-leme-tin-paraskeui",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "source": "",
+    "ko": "금요일에 봐요.",
+    "romanization": "",
+    "el": "Τα λέμε την Παρασκευή.",
+    "literal_el": "",
+    "meaning": "다음 약속 날짜를 정할 때.",
+    "ipa": "ta ˈleme tin paraskeˈvi",
+    "ko_pron": "타 레메 틴 파라스케비",
+    "words": [
+      {
+        "surface": "Τα",
+        "base": "τα",
+        "pos": "관사 (중성, 복수, 대격)",
+        "ipa": "ta",
+        "meaning": "그것들을",
+        "note": ""
+      },
+      {
+        "surface": "λέμε",
+        "base": "λέω",
+        "pos": "동사 (현재형, 1인칭 복수)",
+        "ipa": "ˈleme",
+        "meaning": "우리는 말한다",
+        "note": ""
+      },
+      {
+        "surface": "την",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 대격)",
+        "ipa": "tin",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "Παρασκευή",
+        "base": "Παρασκευή",
+        "pos": "명사 (여성, 단수, 대격)",
+        "ipa": "paraskeˈvi",
+        "meaning": "금요일",
+        "note": "요일 앞에는 전치사 없이 대격만 씁니다: την Τρίτη(화요일에), το Σάββατο(토요일에)."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "반말"
+    ]
+  },
+  {
+    "id": "ti-ora-arxizei",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "약속·시간",
+    "source": "",
+    "ko": "몇 시에 시작해요?",
+    "romanization": "",
+    "el": "Τι ώρα αρχίζει;",
+    "literal_el": "",
+    "meaning": "행사나 영화 등의 시작 시간을 물을 때.",
+    "ipa": "ti ˈora arˈxizi",
+    "ko_pron": "티 오라 아르히지",
+    "words": [
+      {
+        "surface": "Τι",
+        "base": "τι",
+        "pos": "의문형용사",
+        "ipa": "ti",
+        "meaning": "몇/무슨",
+        "note": ""
+      },
+      {
+        "surface": "ώρα",
+        "base": "ώρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈora",
+        "meaning": "시간",
+        "note": ""
+      },
+      {
+        "surface": "αρχίζει",
+        "base": "αρχίζω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "arˈxizi",
+        "meaning": "그것은 시작한다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "poli-oraia",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "source": "",
+    "ko": "정말 좋네요!",
+    "romanization": "",
+    "el": "Πολύ ωραία!",
+    "literal_el": "",
+    "meaning": "좋은 소식이나 상황에 대한 감탄.",
+    "ipa": "poˈli oˈrea",
+    "ko_pron": "폴리 오레아",
+    "words": [
+      {
+        "surface": "Πολύ",
+        "base": "πολύ",
+        "pos": "부사",
+        "ipa": "poˈli",
+        "meaning": "매우",
+        "note": ""
+      },
+      {
+        "surface": "ωραία",
+        "base": "ωραίος",
+        "pos": "형용사 (여성, 단수, 주격)",
+        "ipa": "oˈrea",
+        "meaning": "좋은/멋진",
+        "note": "감탄사처럼 부사적으로 쓰일 때는 중성 복수형과 같은 -α 형태를 그대로 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "감탄"
+    ]
+  },
+  {
+    "id": "lypamai-pou-to-akouo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "source": "",
+    "ko": "안타깝네요.",
+    "romanization": "",
+    "el": "Λυπάμαι που το ακούω.",
+    "literal_el": "",
+    "meaning": "안 좋은 소식을 들었을 때.",
+    "ipa": "liˈpame pu to aˈkuo",
+    "ko_pron": "리파메 푸 토 아쿠오",
+    "words": [
+      {
+        "surface": "Λυπάμαι",
+        "base": "λυπάμαι",
+        "pos": "동사 (현재형, 1인칭 단수, 재귀동사)",
+        "ipa": "liˈpame",
+        "meaning": "나는 유감이다",
+        "note": ""
+      },
+      {
+        "surface": "που",
+        "base": "που",
+        "pos": "접속사",
+        "ipa": "pu",
+        "meaning": "~라는 것을",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "το",
+        "pos": "대명사 (중성, 단수, 대격)",
+        "ipa": "to",
+        "meaning": "그것을",
+        "note": ""
+      },
+      {
+        "surface": "ακούω",
+        "base": "ακούω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "aˈkuo",
+        "meaning": "나는 듣는다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "den-peirazei",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "source": "",
+    "ko": "괜찮아요.",
+    "romanization": "",
+    "el": "Δεν πειράζει.",
+    "literal_el": "",
+    "meaning": "사과에 대한 대답, 또는 문제없다는 표현.",
+    "ipa": "ðen piˈrazi",
+    "ko_pron": "덴 피라지",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "πειράζει",
+        "base": "πειράζω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "piˈrazi",
+        "meaning": "그것은 방해한다/상관있다",
+        "note": "직역은 '상관없다' — 괜찮다는 뜻의 관용 표현입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "관용구",
+      "기본"
+    ]
+  },
+  {
+    "id": "den-to-pistevo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "감정·반응",
+    "source": "",
+    "ko": "믿을 수가 없어요!",
+    "romanization": "",
+    "el": "Δεν το πιστεύω!",
+    "literal_el": "",
+    "meaning": "놀랍거나 믿기지 않는 일에 대한 반응.",
+    "ipa": "ðen to pisˈtevo",
+    "ko_pron": "덴 토 피스테보",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "το",
+        "pos": "대명사 (중성, 단수, 대격)",
+        "ipa": "to",
+        "meaning": "그것을",
+        "note": ""
+      },
+      {
+        "surface": "πιστεύω",
+        "base": "πιστεύω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "pisˈtevo",
+        "meaning": "나는 믿는다",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "감탄"
+    ]
+  },
+  {
+    "id": "chreiazomai-voitheia",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "source": "",
+    "ko": "도움이 필요해요.",
+    "romanization": "",
+    "el": "Χρειάζομαι βοήθεια.",
+    "literal_el": "",
+    "meaning": "급하게 도움을 청할 때.",
+    "ipa": "xriˈazome voˈiθia",
+    "ko_pron": "흐리아조메 보이띠아",
+    "words": [
+      {
+        "surface": "Χρειάζομαι",
+        "base": "χρειάζομαι",
+        "pos": "동사 (현재형, 1인칭 단수, 재귀동사)",
+        "ipa": "xriˈazome",
+        "meaning": "나는 필요로 한다",
+        "note": ""
+      },
+      {
+        "surface": "βοήθεια",
+        "base": "βοήθεια",
+        "pos": "명사 (여성, 단수, 대격)",
+        "ipa": "voˈiθia",
+        "meaning": "도움",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "긴급"
+    ]
+  },
+  {
+    "id": "den-aisthanomai-kala",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "source": "",
+    "ko": "몸이 안 좋아요.",
+    "romanization": "",
+    "el": "Δεν αισθάνομαι καλά.",
+    "literal_el": "",
+    "meaning": "컨디션이 안 좋을 때.",
+    "ipa": "ðen esˈθanome kaˈla",
+    "ko_pron": "덴 에스따노메 칼라",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "αισθάνομαι",
+        "base": "αισθάνομαι",
+        "pos": "동사 (현재형, 1인칭 단수, 재귀동사)",
+        "ipa": "esˈθanome",
+        "meaning": "나는 느낀다",
+        "note": ""
+      },
+      {
+        "surface": "καλά",
+        "base": "καλά",
+        "pos": "부사",
+        "ipa": "kaˈla",
+        "meaning": "잘/좋게",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "pou-einai-to-farmakeio",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "source": "",
+    "ko": "약국이 어디예요?",
+    "romanization": "",
+    "el": "Πού είναι το φαρμακείο;",
+    "literal_el": "",
+    "meaning": "약국 위치를 물을 때.",
+    "ipa": "pu ˈine to farmaˈkio",
+    "ko_pron": "푸 이네 토 파르마키오",
+    "words": [
+      {
+        "surface": "Πού",
+        "base": "πού",
+        "pos": "의문부사",
+        "ipa": "pu",
+        "meaning": "어디",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 단수, 주격)",
+        "ipa": "to",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "φαρμακείο",
+        "base": "φαρμακείο",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "farmaˈkio",
+        "meaning": "약국",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "ponaei-edo",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "건강·곤란",
+    "source": "",
+    "ko": "여기가 아파요.",
+    "romanization": "",
+    "el": "Πονάει εδώ.",
+    "literal_el": "",
+    "meaning": "아픈 부위를 가리키며 하는 말.",
+    "ipa": "poˈnai eˈðo",
+    "ko_pron": "포나이 에도",
+    "words": [
+      {
+        "surface": "Πονάει",
+        "base": "πονάω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "poˈnai",
+        "meaning": "그것은 아프다",
+        "note": ""
+      },
+      {
+        "surface": "εδώ",
+        "base": "εδώ",
+        "pos": "부사",
+        "ipa": "eˈðo",
+        "meaning": "여기",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ti-kairo-kanei-simera",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "source": "",
+    "ko": "오늘 날씨 어때요?",
+    "romanization": "",
+    "el": "Τι καιρό κάνει σήμερα;",
+    "literal_el": "",
+    "meaning": "날씨로 시작하는 가벼운 대화.",
+    "ipa": "ti keˈro ˈkani ˈsimera",
+    "ko_pron": "티 케로 카니 시메라",
+    "words": [
+      {
+        "surface": "Τι",
+        "base": "τι",
+        "pos": "의문형용사",
+        "ipa": "ti",
+        "meaning": "무슨",
+        "note": ""
+      },
+      {
+        "surface": "καιρό",
+        "base": "καιρός",
+        "pos": "명사 (남성, 단수, 대격)",
+        "ipa": "keˈro",
+        "meaning": "날씨",
+        "note": ""
+      },
+      {
+        "surface": "κάνει",
+        "base": "κάνω",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈkani",
+        "meaning": "그것은 한다",
+        "note": "날씨를 나타내는 비인칭 동사 표현입니다."
+      },
+      {
+        "surface": "σήμερα",
+        "base": "σήμερα",
+        "pos": "부사",
+        "ipa": "ˈsimera",
+        "meaning": "오늘",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "pos-pane-ta-pragmata",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "source": "",
+    "ko": "요즘 어떻게 지내요?",
+    "romanization": "",
+    "el": "Πώς πάνε τα πράγματα;",
+    "literal_el": "",
+    "meaning": "안부를 묻는 캐주얼한 표현.",
+    "ipa": "pos ˈpane ta ˈpraɣmata",
+    "ko_pron": "포스 파네 타 프라그마타",
+    "words": [
+      {
+        "surface": "Πώς",
+        "base": "πώς",
+        "pos": "의문부사",
+        "ipa": "pos",
+        "meaning": "어떻게",
+        "note": ""
+      },
+      {
+        "surface": "πάνε",
+        "base": "πάω",
+        "pos": "동사 (현재형, 3인칭 복수)",
+        "ipa": "ˈpane",
+        "meaning": "그것들은 간다",
+        "note": ""
+      },
+      {
+        "surface": "τα",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 복수, 주격)",
+        "ipa": "ta",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "πράγματα",
+        "base": "πράγμα",
+        "pos": "명사 (중성, 복수, 주격)",
+        "ipa": "ˈpraɣmata",
+        "meaning": "것들/일들",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "직역은 '일들이 어떻게 가고 있나요?' 입니다. Τι κάνεις;(어떻게 지내?) 도 비슷한 뜻으로 아주 자주 씁니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "eimai-daskalos",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "source": "",
+    "ko": "저는 선생님이에요.",
+    "romanization": "",
+    "el": "Είμαι δάσκαλος.",
+    "literal_el": "",
+    "meaning": "직업을 소개할 때.",
+    "ipa": "ˈime ˈðaskalos",
+    "ko_pron": "이메 다스칼로스",
+    "words": [
+      {
+        "surface": "Είμαι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈime",
+        "meaning": "나는 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "δάσκαλος",
+        "base": "δάσκαλος",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "ˈðaskalos",
+        "meaning": "선생님",
+        "note": "여성형은 δασκάλα 입니다."
+      }
+    ],
+    "notes": [
+      "직업을 나타내는 명사 앞에는 부정관사를 붙이지 않습니다: Είμαι δάσκαλος (○) / Είμαι ένας δάσκαλος (일반적으로 쓰지 않음)."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "패턴"
+    ]
+  },
+  {
+    "id": "proti-mou-fora-stin-ellada",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "스몰토크",
+    "source": "",
+    "ko": "그리스는 처음이에요.",
+    "romanization": "",
+    "el": "Είναι η πρώτη μου φορά στην Ελλάδα.",
+    "literal_el": "",
+    "meaning": "여행 중 나누는 가벼운 대화.",
+    "ipa": "ˈine i ˈproti mu foˈra stin eˈlaða",
+    "ko_pron": "이네 이 프로티 무 포라 스틴 엘라다",
+    "words": [
+      {
+        "surface": "Είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "η",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 주격)",
+        "ipa": "i",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "πρώτη",
+        "base": "πρώτος",
+        "pos": "형용사 (여성, 단수, 주격)",
+        "ipa": "ˈproti",
+        "meaning": "첫 번째의",
+        "note": ""
+      },
+      {
+        "surface": "μου",
+        "base": "εγώ",
+        "pos": "대명사 (소유격, 1인칭 단수)",
+        "ipa": "mu",
+        "meaning": "나의",
+        "note": ""
+      },
+      {
+        "surface": "φορά",
+        "base": "φορά",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "foˈra",
+        "meaning": "번/차례",
+        "note": ""
+      },
+      {
+        "surface": "στην",
+        "base": "σε/το",
+        "pos": "전치사+관사 축약형",
+        "ipa": "stin",
+        "meaning": "~에",
+        "note": "σε+την(여성 단수 대격 관사)의 축약형입니다."
+      },
+      {
+        "surface": "Ελλάδα",
+        "base": "Ελλάδα",
+        "pos": "명사 (여성, 대격)",
+        "ipa": "eˈlaða",
+        "meaning": "그리스",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴"
+    ]
+  },
+  {
+    "id": "pou-einai-to-domatio-mou",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "숙소·생활",
+    "source": "",
+    "ko": "제 방이 어디예요?",
+    "romanization": "",
+    "el": "Πού είναι το δωμάτιό μου;",
+    "literal_el": "",
+    "meaning": "숙소에서 방을 찾을 때.",
+    "ipa": "pu ˈine to ðoˈmatjo mu",
+    "ko_pron": "푸 이네 토 도마티오 무",
+    "words": [
+      {
+        "surface": "Πού",
+        "base": "πού",
+        "pos": "의문부사",
+        "ipa": "pu",
+        "meaning": "어디",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 단수, 주격)",
+        "ipa": "to",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "δωμάτιό",
+        "base": "δωμάτιο",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "ðoˈmatjo",
+        "meaning": "방",
+        "note": "뒤에 소유격 대명사 μου 가 붙으면서 마지막 음절에 강세 부호가 하나 더 찍힙니다: δωμάτιο → δωμάτιό μου."
+      },
+      {
+        "surface": "μου",
+        "base": "εγώ",
+        "pos": "대명사 (소유격, 1인칭 단수)",
+        "ipa": "mu",
+        "meaning": "나의",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "proparoxytone(끝에서 셋째 음절에 강세가 있는) 명사에 μου/σου 같은 약변화 대명사가 붙으면, 원래 강세는 그대로 두고 마지막 음절에 강세 부호를 하나 더 찍습니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "문법"
+    ]
+  },
+  {
+    "id": "poios-o-kodikos-wifi",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "숙소·생활",
+    "source": "",
+    "ko": "와이파이 비밀번호가 뭐예요?",
+    "romanization": "",
+    "el": "Ποιος είναι ο κωδικός του wifi;",
+    "literal_el": "",
+    "meaning": "숙소에서 와이파이 비밀번호를 물을 때.",
+    "ipa": "pços ˈine o koðiˈkos tu ˈwaifai",
+    "ko_pron": "표스 이네 오 코디코스 투 와이파이",
+    "words": [
+      {
+        "surface": "Ποιος",
+        "base": "ποιος",
+        "pos": "의문대명사 (남성, 단수, 주격)",
+        "ipa": "pços",
+        "meaning": "누구/어느 것",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "ο",
+        "base": "ο/η/το",
+        "pos": "관사 (남성, 단수, 주격)",
+        "ipa": "o",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "κωδικός",
+        "base": "κωδικός",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "koðiˈkos",
+        "meaning": "코드/비밀번호",
+        "note": ""
+      },
+      {
+        "surface": "του",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 단수, 속격)",
+        "ipa": "tu",
+        "meaning": "그것의",
+        "note": ""
+      },
+      {
+        "surface": "wifi",
+        "base": "wifi",
+        "pos": "명사 (불변, 외래어)",
+        "ipa": "ˈwaifai",
+        "meaning": "와이파이",
+        "note": "영어에서 그대로 들어온 말이라 그리스어 격변화를 하지 않습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "ti-ora-checkout",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "숙소·생활",
+    "source": "",
+    "ko": "몇 시에 체크아웃 해요?",
+    "romanization": "",
+    "el": "Τι ώρα είναι το check-out;",
+    "literal_el": "",
+    "meaning": "숙소 퇴실 시간을 물을 때.",
+    "ipa": "ti ˈora ˈine to ˈtʃɛkaut",
+    "ko_pron": "티 오라 이네 토 체크아웃",
+    "words": [
+      {
+        "surface": "Τι",
+        "base": "τι",
+        "pos": "의문형용사",
+        "ipa": "ti",
+        "meaning": "몇/무슨",
+        "note": ""
+      },
+      {
+        "surface": "ώρα",
+        "base": "ώρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈora",
+        "meaning": "시간",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "το",
+        "base": "ο/η/το",
+        "pos": "관사 (중성, 단수, 주격)",
+        "ipa": "to",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "check-out",
+        "base": "check-out",
+        "pos": "명사 (불변, 외래어)",
+        "ipa": "ˈtʃɛkaut",
+        "meaning": "체크아웃",
+        "note": "영어 표현을 그대로 쓰는 경우가 흔합니다."
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "패턴",
+      "의문문"
+    ]
+  },
+  {
+    "id": "i-thea-omorfi",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "자연·풍경",
+    "source": "",
+    "ko": "경치가 정말 아름다워요.",
+    "romanization": "",
+    "el": "Η θέα είναι πραγματικά όμορφη.",
+    "literal_el": "",
+    "meaning": "멋진 풍경을 보고 하는 감탄.",
+    "ipa": "i ˈθea ˈine praɣmatiˈka ˈomorfi",
+    "ko_pron": "이 떼아 이네 프라그마티카 오모르피",
+    "words": [
+      {
+        "surface": "Η",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 주격)",
+        "ipa": "i",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "θέα",
+        "base": "θέα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈθea",
+        "meaning": "경치/전망",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "πραγματικά",
+        "base": "πραγματικά",
+        "pos": "부사",
+        "ipa": "praɣmatiˈka",
+        "meaning": "정말로",
+        "note": ""
+      },
+      {
+        "surface": "όμορφη",
+        "base": "όμορφος",
+        "pos": "형용사 (여성, 단수, 주격)",
+        "ipa": "ˈomorfi",
+        "meaning": "아름다운",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "감탄"
+    ]
+  },
+  {
+    "id": "i-thalassa-galazia",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "자연·풍경",
+    "source": "",
+    "ko": "바다가 참 파래요.",
+    "romanization": "",
+    "el": "Η θάλασσα είναι πολύ γαλάζια.",
+    "literal_el": "",
+    "meaning": "바다색이 예쁠 때 하는 말.",
+    "ipa": "i ˈθalasa ˈine poˈli ɣaˈlazja",
+    "ko_pron": "이 따라사 이네 폴리 갈라지아",
+    "words": [
+      {
+        "surface": "Η",
+        "base": "ο/η/το",
+        "pos": "관사 (여성, 단수, 주격)",
+        "ipa": "i",
+        "meaning": "그",
+        "note": ""
+      },
+      {
+        "surface": "θάλασσα",
+        "base": "θάλασσα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈθalasa",
+        "meaning": "바다",
+        "note": ""
+      },
+      {
+        "surface": "είναι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 3인칭 단수)",
+        "ipa": "ˈine",
+        "meaning": "그것은 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "πολύ",
+        "base": "πολύ",
+        "pos": "부사",
+        "ipa": "poˈli",
+        "meaning": "매우",
+        "note": ""
+      },
+      {
+        "surface": "γαλάζια",
+        "base": "γαλάζιος",
+        "pos": "형용사 (여성, 단수, 주격)",
+        "ipa": "ɣaˈlazja",
+        "meaning": "하늘색의/파란",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "감탄"
+    ]
+  },
+  {
+    "id": "den-eimai-sigouros",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "",
+    "ko": "저는 잘 모르겠어요.",
+    "romanization": "",
+    "el": "Δεν είμαι σίγουρος.",
+    "literal_el": "",
+    "meaning": "확신이 없을 때 하는 말. 화자가 남성일 때의 형태입니다.",
+    "ipa": "ðen ˈime ˈsiɣuros",
+    "ko_pron": "덴 이메 시구로스",
+    "words": [
+      {
+        "surface": "Δεν",
+        "base": "δεν",
+        "pos": "부정어",
+        "ipa": "ðen",
+        "meaning": "~않다",
+        "note": ""
+      },
+      {
+        "surface": "είμαι",
+        "base": "είμαι",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈime",
+        "meaning": "나는 ~이다",
+        "note": ""
+      },
+      {
+        "surface": "σίγουρος",
+        "base": "σίγουρος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈsiɣuros",
+        "meaning": "확신하는",
+        "note": "여성형은 σίγουρη 입니다."
+      }
+    ],
+    "notes": [
+      "그리스어 형용사는 화자·주어의 성에 맞춰 어미가 바뀝니다. 여성 화자라면 Δεν είμαι σίγουρη 라고 합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "문법"
+    ]
+  },
+  {
+    "id": "ela-ta-katafemeis",
+    "added": "2026-09-24",
+    "kind": "phrase",
+    "category": "기타",
+    "source": "",
+    "ko": "화이팅!",
+    "romanization": "",
+    "el": "Έλα, τα καταφέρνεις!",
+    "literal_el": "",
+    "meaning": "응원하거나 격려할 때. 한국어 '화이팅'에 정확히 대응하는 그리스어 표현은 없습니다.",
+    "ipa": "ˈela ta kataˈfernis",
+    "ko_pron": "엘라 타 카타페르니스",
+    "words": [
+      {
+        "surface": "Έλα",
+        "base": "έρχομαι",
+        "pos": "동사 (명령형, 2인칭 단수)",
+        "ipa": "ˈela",
+        "meaning": "이리 와/자",
+        "note": "감탄사처럼 격려·재촉을 나타낼 때도 씁니다."
+      },
+      {
+        "surface": "τα",
+        "base": "το",
+        "pos": "대명사 (중성, 복수, 대격)",
+        "ipa": "ta",
+        "meaning": "그것들을",
+        "note": ""
+      },
+      {
+        "surface": "καταφέρνεις",
+        "base": "καταφέρνω",
+        "pos": "동사 (현재형, 2인칭 단수)",
+        "ipa": "kataˈfernis",
+        "meaning": "너는 해낸다",
+        "note": ""
+      }
+    ],
+    "notes": [
+      "직역하면 '자, 너는 그것들을 해내고 있어' 입니다. 한국어 '화이팅'처럼 짧게 외치는 한 단어는 그리스어에 없어서 격려의 문장으로 대신합니다."
+    ],
+    "examples": [],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": "Έλα(자, 이리 와) 는 그 자체로 재촉·응원의 감탄사로도 널리 쓰입니다."
+    },
+    "tags": [
+      "관용구",
+      "반말"
+    ]
+  }
+]
