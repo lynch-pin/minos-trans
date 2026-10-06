@@ -4038,5 +4038,2473 @@
       "게임",
       "감탄"
     ]
+  },
+  {
+    "id": "ena",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "하나 (1)",
+    "romanization": "",
+    "el": "ένα",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 1. 중성 명사 앞에서 이 형태를 씁니다.",
+    "ipa": "ˈena",
+    "ko_pron": "에나",
+    "words": [
+      {
+        "surface": "ένα",
+        "base": "ένα",
+        "pos": "수사 (중성)",
+        "ipa": "ˈena",
+        "meaning": "하나",
+        "note": "남성 ένας, 여성 μία(μια), 중성 ένα — 부정관사 '하나의'와 같은 낱말입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ένα νερό, παρακαλώ.",
+        "ko": "물 하나 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "dyo",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "둘 (2)",
+    "romanization": "",
+    "el": "δύο",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 2.",
+    "ipa": "ˈðio",
+    "ko_pron": "디오",
+    "words": [
+      {
+        "surface": "δύο",
+        "base": "δύο",
+        "pos": "수사",
+        "ipa": "ˈðio",
+        "meaning": "둘",
+        "note": "성에 따라 변하지 않습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Δύο καφέδες, παρακαλώ.",
+        "ko": "커피 두 잔 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "tria",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "셋 (3)",
+    "romanization": "",
+    "el": "τρία",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 3. 중성 명사 앞이나 그냥 셀 때 이 형태를 씁니다.",
+    "ipa": "ˈtria",
+    "ko_pron": "트리아",
+    "words": [
+      {
+        "surface": "τρία",
+        "base": "τρία",
+        "pos": "수사 (중성)",
+        "ipa": "ˈtria",
+        "meaning": "셋",
+        "note": "남성·여성 명사 앞에서는 τρεις 가 됩니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Έχω τρία παιδιά.",
+        "ko": "아이가 셋 있어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "tessera",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "넷 (4)",
+    "romanization": "",
+    "el": "τέσσερα",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 4.",
+    "ipa": "ˈtesera",
+    "ko_pron": "테세라",
+    "words": [
+      {
+        "surface": "τέσσερα",
+        "base": "τέσσερα",
+        "pos": "수사 (중성)",
+        "ipa": "ˈtesera",
+        "meaning": "넷",
+        "note": "남성·여성 명사 앞에서는 τέσσερις 가 됩니다. 시각을 말할 때도(ώρα 가 여성) στις τέσσερις."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Τέσσερα εισιτήρια, παρακαλώ.",
+        "ko": "표 네 장 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "pente",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "다섯 (5)",
+    "romanization": "",
+    "el": "πέντε",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 5.",
+    "ipa": "ˈpende",
+    "ko_pron": "펜데",
+    "words": [
+      {
+        "surface": "πέντε",
+        "base": "πέντε",
+        "pos": "수사",
+        "ipa": "ˈpende",
+        "meaning": "다섯",
+        "note": "성에 따라 변하지 않습니다."
+      }
+    ],
+    "notes": [
+      "ντ 가 낱말 가운데 있으면 [nd] 로 읽습니다."
+    ],
+    "examples": [
+      {
+        "el": "Περίμενε πέντε λεπτά.",
+        "ko": "5분만 기다려."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "exi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "여섯 (6)",
+    "romanization": "",
+    "el": "έξι",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 6.",
+    "ipa": "ˈeksi",
+    "ko_pron": "엑시",
+    "words": [
+      {
+        "surface": "έξι",
+        "base": "έξι",
+        "pos": "수사",
+        "ipa": "ˈeksi",
+        "meaning": "여섯",
+        "note": "성에 따라 변하지 않습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ξυπνάω στις έξι.",
+        "ko": "6시에 일어나요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "epta",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "일곱 (7)",
+    "romanization": "",
+    "el": "επτά",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 7.",
+    "ipa": "epˈta",
+    "ko_pron": "엡타",
+    "words": [
+      {
+        "surface": "επτά",
+        "base": "επτά",
+        "pos": "수사",
+        "ipa": "epˈta",
+        "meaning": "일곱",
+        "note": "말할 때는 εφτά 라고도 많이 합니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Η εβδομάδα έχει επτά μέρες.",
+        "ko": "일주일은 7일이에요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "okto",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "여덟 (8)",
+    "romanization": "",
+    "el": "οκτώ",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 8.",
+    "ipa": "okˈto",
+    "ko_pron": "옥토",
+    "words": [
+      {
+        "surface": "οκτώ",
+        "base": "οκτώ",
+        "pos": "수사",
+        "ipa": "okˈto",
+        "meaning": "여덟",
+        "note": "말할 때는 οχτώ 라고도 많이 합니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Το μαγαζί ανοίγει στις οκτώ.",
+        "ko": "가게는 8시에 열어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "ennea",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "아홉 (9)",
+    "romanization": "",
+    "el": "εννέα",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 9.",
+    "ipa": "eˈnea",
+    "ko_pron": "에네아",
+    "words": [
+      {
+        "surface": "εννέα",
+        "base": "εννέα",
+        "pos": "수사",
+        "ipa": "eˈnea",
+        "meaning": "아홉",
+        "note": "말할 때는 εννιά 라고도 많이 합니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Είναι εννέα η ώρα.",
+        "ko": "9시예요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "deka",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "열 (10)",
+    "romanization": "",
+    "el": "δέκα",
+    "literal_el": "",
+    "meaning": "수를 셀 때 쓰는 10.",
+    "ipa": "ˈðeka",
+    "ko_pron": "데카",
+    "words": [
+      {
+        "surface": "δέκα",
+        "base": "δέκα",
+        "pos": "수사",
+        "ipa": "ˈðeka",
+        "meaning": "열",
+        "note": "성에 따라 변하지 않습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Κοστίζει δέκα ευρώ.",
+        "ko": "10유로예요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "숫자"
+    ]
+  },
+  {
+    "id": "deftera",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "월요일",
+    "romanization": "",
+    "el": "Δευτέρα",
+    "literal_el": "",
+    "meaning": "요일 이름. 그리스어 요일은 대문자로 씁니다.",
+    "ipa": "ðefˈtera",
+    "ko_pron": "데프테라",
+    "words": [
+      {
+        "surface": "Δευτέρα",
+        "base": "Δευτέρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ðefˈtera",
+        "meaning": "월요일",
+        "note": "원래 뜻은 '둘째 (날)' — 일요일을 첫째 날로 셉니다."
+      }
+    ],
+    "notes": [
+      "요일 앞에는 전치사 없이 대격 관사만 붙입니다: τη Δευτέρα(월요일에)."
+    ],
+    "examples": [
+      {
+        "el": "Τη Δευτέρα δουλεύω.",
+        "ko": "월요일엔 일해요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "triti",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "화요일",
+    "romanization": "",
+    "el": "Τρίτη",
+    "literal_el": "",
+    "meaning": "요일 이름.",
+    "ipa": "ˈtriti",
+    "ko_pron": "트리티",
+    "words": [
+      {
+        "surface": "Τρίτη",
+        "base": "Τρίτη",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈtriti",
+        "meaning": "화요일",
+        "note": "원래 뜻은 '셋째 (날)'. 소문자 τρίτη 는 그냥 '셋째의(여성)'입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Τα λέμε την Τρίτη.",
+        "ko": "화요일에 봐요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "tetarti",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "수요일",
+    "romanization": "",
+    "el": "Τετάρτη",
+    "literal_el": "",
+    "meaning": "요일 이름.",
+    "ipa": "teˈtarti",
+    "ko_pron": "테타르티",
+    "words": [
+      {
+        "surface": "Τετάρτη",
+        "base": "Τετάρτη",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "teˈtarti",
+        "meaning": "수요일",
+        "note": "원래 뜻은 '넷째 (날)'."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Την Τετάρτη έχω μάθημα.",
+        "ko": "수요일에 수업이 있어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "pempti",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "목요일",
+    "romanization": "",
+    "el": "Πέμπτη",
+    "literal_el": "",
+    "meaning": "요일 이름.",
+    "ipa": "ˈpempti",
+    "ko_pron": "펨프티",
+    "words": [
+      {
+        "surface": "Πέμπτη",
+        "base": "Πέμπτη",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈpempti",
+        "meaning": "목요일",
+        "note": "원래 뜻은 '다섯째 (날)'. 여기서 μπ 는 [mp] 로 읽습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Την Πέμπτη πάμε για φαγητό.",
+        "ko": "목요일에 밥 먹으러 가요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "paraskevi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "금요일",
+    "romanization": "",
+    "el": "Παρασκευή",
+    "literal_el": "",
+    "meaning": "요일 이름.",
+    "ipa": "paraskeˈvi",
+    "ko_pron": "파라스케비",
+    "words": [
+      {
+        "surface": "Παρασκευή",
+        "base": "Παρασκευή",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "paraskeˈvi",
+        "meaning": "금요일",
+        "note": "원래 뜻은 '준비' — 안식일을 준비하는 날이라는 데서 왔습니다. 여자 이름으로도 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Την Παρασκευή βγαίνουμε.",
+        "ko": "금요일엔 놀러 나가요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "savvato",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "토요일",
+    "romanization": "",
+    "el": "Σάββατο",
+    "literal_el": "",
+    "meaning": "요일 이름. 요일 중 유일한 중성 명사입니다.",
+    "ipa": "ˈsavato",
+    "ko_pron": "사바토",
+    "words": [
+      {
+        "surface": "Σάββατο",
+        "base": "Σάββατο",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "ˈsavato",
+        "meaning": "토요일",
+        "note": "중성이라 관사도 το: το Σάββατο(토요일에)."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Το Σάββατο πάμε στη θάλασσα.",
+        "ko": "토요일엔 바다에 가요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "kyriaki",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "일요일",
+    "romanization": "",
+    "el": "Κυριακή",
+    "literal_el": "",
+    "meaning": "요일 이름.",
+    "ipa": "kiriaˈki",
+    "ko_pron": "키리아키",
+    "words": [
+      {
+        "surface": "Κυριακή",
+        "base": "Κυριακή",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "kiriaˈki",
+        "meaning": "일요일",
+        "note": "Κύριος(주님)에서 온 말로 '주님의 날'이라는 뜻입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Την Κυριακή ξεκουράζομαι.",
+        "ko": "일요일엔 쉬어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "요일"
+    ]
+  },
+  {
+    "id": "avrio",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "내일",
+    "romanization": "",
+    "el": "αύριο",
+    "literal_el": "",
+    "meaning": "다음 날을 가리킬 때.",
+    "ipa": "ˈavrio",
+    "ko_pron": "아브리오",
+    "words": [
+      {
+        "surface": "αύριο",
+        "base": "αύριο",
+        "pos": "부사",
+        "ipa": "ˈavrio",
+        "meaning": "내일",
+        "note": "αυ 는 유성음 앞에서 [av] 로 읽습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Τα λέμε αύριο!",
+        "ko": "내일 봐요!"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "시간"
+    ]
+  },
+  {
+    "id": "chthes",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "어제",
+    "romanization": "",
+    "el": "χθες",
+    "literal_el": "",
+    "meaning": "전날을 가리킬 때.",
+    "ipa": "xθes",
+    "ko_pron": "흐떼스",
+    "words": [
+      {
+        "surface": "χθες",
+        "base": "χθες",
+        "pos": "부사",
+        "ipa": "xθes",
+        "meaning": "어제",
+        "note": "χτες 라고도 씁니다. 한 음절이라 강세 부호가 없습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Χθες έβρεχε.",
+        "ko": "어제 비가 왔어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "시간"
+    ]
+  },
+  {
+    "id": "proi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "아침",
+    "romanization": "",
+    "el": "πρωί",
+    "literal_el": "",
+    "meaning": "하루 중 아침 시간.",
+    "ipa": "proˈi",
+    "ko_pron": "프로이",
+    "words": [
+      {
+        "surface": "πρωί",
+        "base": "πρωί",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "proˈi",
+        "meaning": "아침",
+        "note": "το πρωί 는 '아침에'라는 부사처럼도 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Πίνω καφέ κάθε πρωί.",
+        "ko": "매일 아침 커피를 마셔요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "시간"
+    ]
+  },
+  {
+    "id": "vradi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "저녁",
+    "romanization": "",
+    "el": "βράδυ",
+    "literal_el": "",
+    "meaning": "해가 진 뒤의 저녁·밤 시간.",
+    "ipa": "ˈvraði",
+    "ko_pron": "브라디",
+    "words": [
+      {
+        "surface": "βράδυ",
+        "base": "βράδυ",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "ˈvraði",
+        "meaning": "저녁",
+        "note": "το βράδυ 는 '저녁에'라는 부사처럼도 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Θα σε πάρω τηλέφωνο το βράδυ.",
+        "ko": "저녁에 전화할게."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "시간"
+    ]
+  },
+  {
+    "id": "mitera",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "어머니",
+    "romanization": "",
+    "el": "μητέρα",
+    "literal_el": "",
+    "meaning": "어머니를 가리키는 일반적인 말.",
+    "ipa": "miˈtera",
+    "ko_pron": "미테라",
+    "words": [
+      {
+        "surface": "μητέρα",
+        "base": "μητέρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "miˈtera",
+        "meaning": "어머니",
+        "note": "말할 때는 μαμά(엄마)를 더 많이 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Η μητέρα μου είναι δασκάλα.",
+        "ko": "우리 어머니는 선생님이에요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "가족"
+    ]
+  },
+  {
+    "id": "pateras",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "아버지",
+    "romanization": "",
+    "el": "πατέρας",
+    "literal_el": "",
+    "meaning": "아버지를 가리키는 일반적인 말.",
+    "ipa": "paˈteras",
+    "ko_pron": "파테라스",
+    "words": [
+      {
+        "surface": "πατέρας",
+        "base": "πατέρας",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "paˈteras",
+        "meaning": "아버지",
+        "note": "말할 때는 μπαμπάς(아빠)를 더 많이 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ο πατέρας μου μένει στην Αθήνα.",
+        "ko": "아버지는 아테네에 사세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "가족"
+    ]
+  },
+  {
+    "id": "aderfos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "형제",
+    "romanization": "",
+    "el": "αδερφός",
+    "literal_el": "",
+    "meaning": "남자 형제를 가리킬 때.",
+    "ipa": "aðerˈfos",
+    "ko_pron": "아데르포스",
+    "words": [
+      {
+        "surface": "αδερφός",
+        "base": "αδερφός",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "aðerˈfos",
+        "meaning": "형·오빠·남동생",
+        "note": "손위·손아래를 구분하지 않습니다. 나누려면 μεγάλος(큰)/μικρός(작은)를 붙입니다. 격식체 철자는 αδελφός."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ο αδερφός μου είναι φοιτητής.",
+        "ko": "제 남자 형제는 대학생이에요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "가족"
+    ]
+  },
+  {
+    "id": "aderfi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "자매",
+    "romanization": "",
+    "el": "αδερφή",
+    "literal_el": "",
+    "meaning": "여자 형제를 가리킬 때.",
+    "ipa": "aðerˈfi",
+    "ko_pron": "아데르피",
+    "words": [
+      {
+        "surface": "αδερφή",
+        "base": "αδερφή",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "aðerˈfi",
+        "meaning": "언니·누나·여동생",
+        "note": "손위·손아래를 구분하지 않습니다. 격식체 철자는 αδελφή."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Η αδερφή μου μένει στη Σεούλ.",
+        "ko": "제 여자 형제는 서울에 살아요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "가족"
+    ]
+  },
+  {
+    "id": "filos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "친구",
+    "romanization": "",
+    "el": "φίλος",
+    "literal_el": "",
+    "meaning": "친구를 가리킬 때.",
+    "ipa": "ˈfilos",
+    "ko_pron": "필로스",
+    "words": [
+      {
+        "surface": "φίλος",
+        "base": "φίλος",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "ˈfilos",
+        "meaning": "친구",
+        "note": "여성형은 φίλη. ο φίλος μου 는 문맥에 따라 '남자친구'로도 들립니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Είμαστε φίλοι.",
+        "ko": "우리는 친구예요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "사람"
+    ]
+  },
+  {
+    "id": "paidi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "아이",
+    "romanization": "",
+    "el": "παιδί",
+    "literal_el": "",
+    "meaning": "어린아이, 또는 누군가의 자식.",
+    "ipa": "peˈði",
+    "ko_pron": "페디",
+    "words": [
+      {
+        "surface": "παιδί",
+        "base": "παιδί",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "peˈði",
+        "meaning": "아이",
+        "note": "복수 παιδιά 는 친한 무리를 부를 때 '얘들아'처럼도 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Το παιδί παίζει στον κήπο.",
+        "ko": "아이가 정원에서 놀아요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "사람"
+    ]
+  },
+  {
+    "id": "nero",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "물",
+    "romanization": "",
+    "el": "νερό",
+    "literal_el": "",
+    "meaning": "마시는 물.",
+    "ipa": "neˈro",
+    "ko_pron": "네로",
+    "words": [
+      {
+        "surface": "νερό",
+        "base": "νερό",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "neˈro",
+        "meaning": "물",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ένα μπουκάλι νερό, παρακαλώ.",
+        "ko": "물 한 병 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "음식"
+    ]
+  },
+  {
+    "id": "psomi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "빵",
+    "romanization": "",
+    "el": "ψωμί",
+    "literal_el": "",
+    "meaning": "식사 때 곁들이는 빵.",
+    "ipa": "psoˈmi",
+    "ko_pron": "프소미",
+    "words": [
+      {
+        "surface": "ψωμί",
+        "base": "ψωμί",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "psoˈmi",
+        "meaning": "빵",
+        "note": "ψ 는 [ps] 로 읽습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Θέλετε ψωμί;",
+        "ko": "빵 드릴까요?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "음식"
+    ]
+  },
+  {
+    "id": "krasi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "와인",
+    "romanization": "",
+    "el": "κρασί",
+    "literal_el": "",
+    "meaning": "포도주.",
+    "ipa": "kraˈsi",
+    "ko_pron": "크라시",
+    "words": [
+      {
+        "surface": "κρασί",
+        "base": "κρασί",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "kraˈsi",
+        "meaning": "와인",
+        "note": "레드와인은 κόκκινο κρασί(빨간 와인), 화이트와인은 λευκό κρασί."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ένα ποτήρι κόκκινο κρασί, παρακαλώ.",
+        "ko": "레드와인 한 잔 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "음식"
+    ]
+  },
+  {
+    "id": "bira",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "맥주",
+    "romanization": "",
+    "el": "μπίρα",
+    "literal_el": "",
+    "meaning": "맥주.",
+    "ipa": "ˈbira",
+    "ko_pron": "비라",
+    "words": [
+      {
+        "surface": "μπίρα",
+        "base": "μπίρα",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈbira",
+        "meaning": "맥주",
+        "note": "낱말 첫머리의 μπ 는 [b] 로 읽습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Δύο μπίρες, παρακαλώ.",
+        "ko": "맥주 두 잔 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "음식"
+    ]
+  },
+  {
+    "id": "tyri",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "치즈",
+    "romanization": "",
+    "el": "τυρί",
+    "literal_el": "",
+    "meaning": "치즈.",
+    "ipa": "tiˈri",
+    "ko_pron": "티리",
+    "words": [
+      {
+        "surface": "τυρί",
+        "base": "τυρί",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "tiˈri",
+        "meaning": "치즈",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Η φέτα είναι ελληνικό τυρί.",
+        "ko": "페타는 그리스 치즈예요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "음식"
+    ]
+  },
+  {
+    "id": "frouto",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "과일",
+    "romanization": "",
+    "el": "φρούτο",
+    "literal_el": "",
+    "meaning": "과일.",
+    "ipa": "ˈfruto",
+    "ko_pron": "프루토",
+    "words": [
+      {
+        "surface": "φρούτο",
+        "base": "φρούτο",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "ˈfruto",
+        "meaning": "과일",
+        "note": "복수형 φρούτα 를 자주 씁니다."
+      }
+    ],
+    "notes": [
+      "'~을 좋아한다'는 μου αρέσει(단수)/μου αρέσουν(복수) — 좋아하는 대상이 주어가 됩니다."
+    ],
+    "examples": [
+      {
+        "el": "Μου αρέσουν τα φρούτα.",
+        "ko": "과일을 좋아해요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "음식"
+    ]
+  },
+  {
+    "id": "spiti",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "집",
+    "romanization": "",
+    "el": "σπίτι",
+    "literal_el": "",
+    "meaning": "사는 집.",
+    "ipa": "ˈspiti",
+    "ko_pron": "스피티",
+    "words": [
+      {
+        "surface": "σπίτι",
+        "base": "σπίτι",
+        "pos": "명사 (중성, 단수, 주격)",
+        "ipa": "ˈspiti",
+        "meaning": "집",
+        "note": "'집에 가다'는 관사·전치사 없이 πάω σπίτι 라고 합니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Πάω σπίτι.",
+        "ko": "집에 가요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "장소"
+    ]
+  },
+  {
+    "id": "dromos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "길",
+    "romanization": "",
+    "el": "δρόμος",
+    "literal_el": "",
+    "meaning": "길이나 도로.",
+    "ipa": "ˈðromos",
+    "ko_pron": "드로모스",
+    "words": [
+      {
+        "surface": "δρόμος",
+        "base": "δρόμος",
+        "pos": "명사 (남성, 단수, 주격)",
+        "ipa": "ˈðromos",
+        "meaning": "길·도로",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ποιος δρόμος πάει στο λιμάνι;",
+        "ko": "어느 길이 항구로 가요?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "장소"
+    ]
+  },
+  {
+    "id": "poli",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "도시",
+    "romanization": "",
+    "el": "πόλη",
+    "literal_el": "",
+    "meaning": "도시.",
+    "ipa": "ˈpoli",
+    "ko_pron": "폴리",
+    "words": [
+      {
+        "surface": "πόλη",
+        "base": "πόλη",
+        "pos": "명사 (여성, 단수, 주격)",
+        "ipa": "ˈpoli",
+        "meaning": "도시",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Η Αθήνα είναι μεγάλη πόλη.",
+        "ko": "아테네는 큰 도시예요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "장소"
+    ]
+  },
+  {
+    "id": "lefta",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "돈",
+    "romanization": "",
+    "el": "λεφτά",
+    "literal_el": "",
+    "meaning": "일상에서 '돈'이라고 할 때.",
+    "ipa": "lefˈta",
+    "ko_pron": "레프타",
+    "words": [
+      {
+        "surface": "λεφτά",
+        "base": "λεφτά",
+        "pos": "명사 (중성, 복수, 주격)",
+        "ipa": "lefˈta",
+        "meaning": "돈",
+        "note": "늘 복수로만 씁니다. 격식체는 χρήματα."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Δεν έχω λεφτά.",
+        "ko": "돈이 없어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "사물"
+    ]
+  },
+  {
+    "id": "troo",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "먹다",
+    "romanization": "",
+    "el": "τρώω",
+    "literal_el": "",
+    "meaning": "음식을 먹을 때.",
+    "ipa": "ˈtroo",
+    "ko_pron": "트로오",
+    "words": [
+      {
+        "surface": "τρώω",
+        "base": "τρώω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈtroo",
+        "meaning": "나는 먹는다",
+        "note": "완료상은 φάω (να φάω, θα φάω), 과거형은 έφαγα — 모양이 완전히 바뀌는 불규칙 동사입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Τρώω στις δύο.",
+        "ko": "두 시에 밥 먹어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "pino",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "마시다",
+    "romanization": "",
+    "el": "πίνω",
+    "literal_el": "",
+    "meaning": "음료를 마실 때.",
+    "ipa": "ˈpino",
+    "ko_pron": "피노",
+    "words": [
+      {
+        "surface": "πίνω",
+        "base": "πίνω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈpino",
+        "meaning": "나는 마신다",
+        "note": "완료상은 πιω (να πιω), 과거형은 ήπια."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Δεν πίνω αλκοόλ.",
+        "ko": "술은 안 마셔요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "xero",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "알다",
+    "romanization": "",
+    "el": "ξέρω",
+    "literal_el": "",
+    "meaning": "무언가를 알고 있을 때.",
+    "ipa": "ˈksero",
+    "ko_pron": "크세로",
+    "words": [
+      {
+        "surface": "ξέρω",
+        "base": "ξέρω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈksero",
+        "meaning": "나는 안다",
+        "note": "완료상이 따로 없는 동사입니다. 과거형은 ήξερα."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Δεν ξέρω.",
+        "ko": "몰라요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "agapao",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "사랑하다",
+    "romanization": "",
+    "el": "αγαπάω",
+    "literal_el": "",
+    "meaning": "사람이나 사물을 사랑할 때.",
+    "ipa": "aɣaˈpao",
+    "ko_pron": "아가파오",
+    "words": [
+      {
+        "surface": "αγαπάω",
+        "base": "αγαπάω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "aɣaˈpao",
+        "meaning": "나는 사랑한다",
+        "note": "αγαπώ 라고도 씁니다. 예문의 σ' 는 σε(너를)에서 모음이 빠진 꼴입니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Σ' αγαπώ.",
+        "ko": "사랑해."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "doulevo",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "일하다",
+    "romanization": "",
+    "el": "δουλεύω",
+    "literal_el": "",
+    "meaning": "직장에서 일할 때.",
+    "ipa": "ðuˈlevo",
+    "ko_pron": "둘레보",
+    "words": [
+      {
+        "surface": "δουλεύω",
+        "base": "δουλεύω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ðuˈlevo",
+        "meaning": "나는 일한다",
+        "note": "ευ 는 유성음 앞에서 [ev] 로 읽습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Πού δουλεύεις;",
+        "ko": "어디서 일해?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "meno",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "살다",
+    "romanization": "",
+    "el": "μένω",
+    "literal_el": "",
+    "meaning": "어디에 사는지, 머무는지 말할 때.",
+    "ipa": "ˈmeno",
+    "ko_pron": "메노",
+    "words": [
+      {
+        "surface": "μένω",
+        "base": "μένω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈmeno",
+        "meaning": "나는 산다·머문다",
+        "note": "'남다·머무르다'라는 뜻도 있습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Μένω στη Σεούλ.",
+        "ko": "서울에 살아요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "grafo",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "쓰다",
+    "romanization": "",
+    "el": "γράφω",
+    "literal_el": "",
+    "meaning": "글을 쓸 때.",
+    "ipa": "ˈɣrafo",
+    "ko_pron": "그라포",
+    "words": [
+      {
+        "surface": "γράφω",
+        "base": "γράφω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ˈɣrafo",
+        "meaning": "나는 쓴다",
+        "note": "완료상은 γράψω, 명령형은 γράψε."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Γράψε μου όταν φτάσεις.",
+        "ko": "도착하면 연락해."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "diavazo",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "읽다",
+    "romanization": "",
+    "el": "διαβάζω",
+    "literal_el": "",
+    "meaning": "책을 읽거나 공부할 때.",
+    "ipa": "ðiaˈvazo",
+    "ko_pron": "디아바조",
+    "words": [
+      {
+        "surface": "διαβάζω",
+        "base": "διαβάζω",
+        "pos": "동사 (현재형, 1인칭 단수)",
+        "ipa": "ðiaˈvazo",
+        "meaning": "나는 읽는다·공부한다",
+        "note": "'공부하다'라는 뜻으로도 아주 많이 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Διαβάζω ένα βιβλίο.",
+        "ko": "책을 읽고 있어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "동사"
+    ]
+  },
+  {
+    "id": "megalos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "큰",
+    "romanization": "",
+    "el": "μεγάλος",
+    "literal_el": "",
+    "meaning": "크기가 클 때. 사람에게는 '나이 많은'.",
+    "ipa": "meˈɣalos",
+    "ko_pron": "메갈로스",
+    "words": [
+      {
+        "surface": "μεγάλος",
+        "base": "μεγάλος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "meˈɣalos",
+        "meaning": "큰",
+        "note": "여성 μεγάλη, 중성 μεγάλο."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Έχουν ένα μεγάλο σπίτι.",
+        "ko": "그들은 큰 집이 있어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "mikros",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "작은",
+    "romanization": "",
+    "el": "μικρός",
+    "literal_el": "",
+    "meaning": "크기가 작을 때. 사람에게는 '어린'.",
+    "ipa": "miˈkros",
+    "ko_pron": "미크로스",
+    "words": [
+      {
+        "surface": "μικρός",
+        "base": "μικρός",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "miˈkros",
+        "meaning": "작은",
+        "note": "여성 μικρή, 중성 μικρό."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ο μικρός μου αδερφός.",
+        "ko": "제 남동생이에요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "kalos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "좋은",
+    "romanization": "",
+    "el": "καλός",
+    "literal_el": "",
+    "meaning": "좋거나 착할 때.",
+    "ipa": "kaˈlos",
+    "ko_pron": "칼로스",
+    "words": [
+      {
+        "surface": "καλός",
+        "base": "καλός",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "kaˈlos",
+        "meaning": "좋은",
+        "note": "여성 καλή, 중성 καλό. 부사는 καλά(잘)."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Είναι πολύ καλός άνθρωπος.",
+        "ko": "정말 좋은 사람이에요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "kakos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "나쁜",
+    "romanization": "",
+    "el": "κακός",
+    "literal_el": "",
+    "meaning": "나쁠 때.",
+    "ipa": "kaˈkos",
+    "ko_pron": "카코스",
+    "words": [
+      {
+        "surface": "κακός",
+        "base": "κακός",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "kaˈkos",
+        "meaning": "나쁜",
+        "note": "여성 κακή, 중성 κακό."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Δεν είναι κακή ιδέα.",
+        "ko": "나쁜 생각은 아니네요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "kainourios",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "새로운",
+    "romanization": "",
+    "el": "καινούριος",
+    "literal_el": "",
+    "meaning": "물건이 새것일 때.",
+    "ipa": "keˈnurjos",
+    "ko_pron": "케누리오스",
+    "words": [
+      {
+        "surface": "καινούριος",
+        "base": "καινούριος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "keˈnurjos",
+        "meaning": "새로운",
+        "note": "여성 καινούρια, 중성 καινούριο. καινούργιος 라고도 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Έχω καινούριο κινητό.",
+        "ko": "새 휴대폰이 생겼어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "palios",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "오래된",
+    "romanization": "",
+    "el": "παλιός",
+    "literal_el": "",
+    "meaning": "오래되거나 낡았을 때.",
+    "ipa": "paˈljos",
+    "ko_pron": "팔리오스",
+    "words": [
+      {
+        "surface": "παλιός",
+        "base": "παλιός",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "paˈljos",
+        "meaning": "오래된·낡은",
+        "note": "여성 παλιά, 중성 παλιό."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Μένω σε ένα παλιό σπίτι.",
+        "ko": "오래된 집에 살아요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "zestos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "따뜻한",
+    "romanization": "",
+    "el": "ζεστός",
+    "literal_el": "",
+    "meaning": "음식이나 물건이 따뜻할 때.",
+    "ipa": "zeˈstos",
+    "ko_pron": "제스토스",
+    "words": [
+      {
+        "surface": "ζεστός",
+        "base": "ζεστός",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "zeˈstos",
+        "meaning": "따뜻한·뜨거운",
+        "note": "여성 ζεστή, 중성 ζεστό."
+      }
+    ],
+    "notes": [
+      "날씨가 덥다고 할 때는 형용사가 아니라 κάνει ζέστη 라고 합니다."
+    ],
+    "examples": [
+      {
+        "el": "Ένα ζεστό τσάι, παρακαλώ.",
+        "ko": "따뜻한 차 한 잔 주세요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "kryos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "차가운",
+    "romanization": "",
+    "el": "κρύος",
+    "literal_el": "",
+    "meaning": "음식이나 물건이 차가울 때.",
+    "ipa": "ˈkrios",
+    "ko_pron": "크리오스",
+    "words": [
+      {
+        "surface": "κρύος",
+        "base": "κρύος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈkrios",
+        "meaning": "차가운",
+        "note": "여성 κρύα, 중성 κρύο."
+      }
+    ],
+    "notes": [
+      "날씨가 춥다고 할 때는 κάνει κρύο 라고 합니다."
+    ],
+    "examples": [
+      {
+        "el": "Το νερό είναι κρύο.",
+        "ko": "물이 차가워요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "형용사"
+    ]
+  },
+  {
+    "id": "aspros",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "흰",
+    "romanization": "",
+    "el": "άσπρος",
+    "literal_el": "",
+    "meaning": "흰색.",
+    "ipa": "ˈaspros",
+    "ko_pron": "아스프로스",
+    "words": [
+      {
+        "surface": "άσπρος",
+        "base": "άσπρος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈaspros",
+        "meaning": "흰",
+        "note": "여성 άσπρη, 중성 άσπρο. 격식체로는 λευκός."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ένα άσπρο πουκάμισο.",
+        "ko": "흰 셔츠 한 벌."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "색깔"
+    ]
+  },
+  {
+    "id": "mavros",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "검은",
+    "romanization": "",
+    "el": "μαύρος",
+    "literal_el": "",
+    "meaning": "검은색.",
+    "ipa": "ˈmavros",
+    "ko_pron": "마브로스",
+    "words": [
+      {
+        "surface": "μαύρος",
+        "base": "μαύρος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈmavros",
+        "meaning": "검은",
+        "note": "여성 μαύρη, 중성 μαύρο."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Μου αρέσει το μαύρο χρώμα.",
+        "ko": "검은색을 좋아해요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "색깔"
+    ]
+  },
+  {
+    "id": "kokkinos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "빨간",
+    "romanization": "",
+    "el": "κόκκινος",
+    "literal_el": "",
+    "meaning": "빨간색.",
+    "ipa": "ˈkokinos",
+    "ko_pron": "코키노스",
+    "words": [
+      {
+        "surface": "κόκκινος",
+        "base": "κόκκινος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈkokinos",
+        "meaning": "빨간",
+        "note": "여성 κόκκινη, 중성 κόκκινο."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ένα κόκκινο φόρεμα.",
+        "ko": "빨간 원피스."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "색깔"
+    ]
+  },
+  {
+    "id": "prasinos",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "초록",
+    "romanization": "",
+    "el": "πράσινος",
+    "literal_el": "",
+    "meaning": "초록색.",
+    "ipa": "ˈprasinos",
+    "ko_pron": "프라시노스",
+    "words": [
+      {
+        "surface": "πράσινος",
+        "base": "πράσινος",
+        "pos": "형용사 (남성, 단수, 주격)",
+        "ipa": "ˈprasinos",
+        "meaning": "초록의",
+        "note": "여성 πράσινη, 중성 πράσινο."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Περίμενε το πράσινο φανάρι.",
+        "ko": "초록불을 기다려."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "색깔"
+    ]
+  },
+  {
+    "id": "nai",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "네",
+    "romanization": "",
+    "el": "ναι",
+    "literal_el": "",
+    "meaning": "긍정의 대답.",
+    "ipa": "ne",
+    "ko_pron": "네",
+    "words": [
+      {
+        "surface": "ναι",
+        "base": "ναι",
+        "pos": "부사",
+        "ipa": "ne",
+        "meaning": "네, 예",
+        "note": "한국어 '네'와 소리도 뜻도 같아 외우기 쉽습니다. 한 음절이라 강세 부호가 없습니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Ναι, βέβαια.",
+        "ko": "네, 물론이죠."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "ochi",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "아니요",
+    "romanization": "",
+    "el": "όχι",
+    "literal_el": "",
+    "meaning": "부정의 대답.",
+    "ipa": "ˈoxi",
+    "ko_pron": "오히",
+    "words": [
+      {
+        "surface": "όχι",
+        "base": "όχι",
+        "pos": "부사",
+        "ipa": "ˈoxi",
+        "meaning": "아니요",
+        "note": ""
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Όχι, ευχαριστώ.",
+        "ko": "아니요, 괜찮아요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "esy",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "너",
+    "romanization": "",
+    "el": "εσύ",
+    "literal_el": "",
+    "meaning": "상대를 가리킬 때 (반말).",
+    "ipa": "eˈsi",
+    "ko_pron": "에시",
+    "words": [
+      {
+        "surface": "εσύ",
+        "base": "εσύ",
+        "pos": "대명사 (주격, 2인칭 단수)",
+        "ipa": "eˈsi",
+        "meaning": "너",
+        "note": "동사 어미에 이미 인칭이 드러나서, 강조할 때만 씁니다. 존댓말은 εσείς."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Κι εσύ;",
+        "ko": "너는?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본",
+      "반말"
+    ]
+  },
+  {
+    "id": "emeis",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "우리",
+    "romanization": "",
+    "el": "εμείς",
+    "literal_el": "",
+    "meaning": "우리를 가리킬 때.",
+    "ipa": "eˈmis",
+    "ko_pron": "에미스",
+    "words": [
+      {
+        "surface": "εμείς",
+        "base": "εμείς",
+        "pos": "대명사 (주격, 1인칭 복수)",
+        "ipa": "eˈmis",
+        "meaning": "우리",
+        "note": "동사 어미에 인칭이 드러나서, 강조할 때만 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Εμείς είμαστε από την Κορέα.",
+        "ko": "우리는 한국에서 왔어요."
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "기본"
+    ]
+  },
+  {
+    "id": "pote",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "언제",
+    "romanization": "",
+    "el": "πότε",
+    "literal_el": "",
+    "meaning": "때를 물을 때.",
+    "ipa": "ˈpote",
+    "ko_pron": "포테",
+    "words": [
+      {
+        "surface": "πότε",
+        "base": "πότε",
+        "pos": "의문부사",
+        "ipa": "ˈpote",
+        "meaning": "언제",
+        "note": "강세가 뒤로 가면 ποτέ(결코)라는 전혀 다른 낱말이 됩니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Πότε φεύγει το τρένο;",
+        "ko": "기차가 언제 떠나요?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문사"
+    ]
+  },
+  {
+    "id": "giati",
+    "added": "2026-10-06",
+    "kind": "word",
+    "category": "기본 낱말",
+    "source": "",
+    "ko": "왜",
+    "romanization": "",
+    "el": "γιατί",
+    "literal_el": "",
+    "meaning": "이유를 물을 때.",
+    "ipa": "ʝaˈti",
+    "ko_pron": "야티",
+    "words": [
+      {
+        "surface": "γιατί",
+        "base": "γιατί",
+        "pos": "의문부사",
+        "ipa": "ʝaˈti",
+        "meaning": "왜",
+        "note": "대답할 때는 '왜냐하면'이라는 뜻으로도 씁니다."
+      }
+    ],
+    "notes": [],
+    "examples": [
+      {
+        "el": "Γιατί όχι;",
+        "ko": "왜 안 돼?"
+      }
+    ],
+    "equivalent": {
+      "el": "",
+      "literal": "",
+      "note": ""
+    },
+    "tags": [
+      "의문사"
+    ]
   }
 ]
